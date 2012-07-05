@@ -1,0 +1,142 @@
+/* Green */
+
+/* #1e771a */
+a, .top-menu li, .button1, #footer .button1, .button2, .button3, 
+.accordion h4.ui-state-active, .toggle .active, 
+.blog-prev .blog-prev-content h4 a, .event-prev .event-prev-content h4 a, 
+#footer-copy p .footer-menu {
+	color: #007fff;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a {
+	color: #007fff !important;
+}
+
+#header, .msg1, .donate-btn .donate-right, #content .widget .widget-title, #footer-wrapper {
+	background: url(../../images/bg.png) #007fff;
+}
+
+#main-menu .current_page_item a, #main-menu .current-menu-item a,
+#main-menu li a:hover, #main-menu li.sfHover a,
+#main-menu a:focus, #main-menu a:hover, #main-menu a:active, .title-end, 
+.blog-title .comment-count, .blog-title-single .comment-count, .event-prev .event-prev-date {
+	background: #007fff;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected, blockquote, table {
+	border-color: #007fff;
+}
+
+.blog-title .comment-count .comment-point,
+.blog-title-single .comment-count .comment-point {
+	background: url(../../images/comment-point.png) #007fff no-repeat;
+}
+
+#twitter_icon, #facebook_icon, #googleplus_icon, #skype_icon, #flickr_icon, #linkedin_icon, #vimeo_icon, #youtube_icon, #rss_icon {
+	background: url(../../images/social-icons.png) no-repeat #007fff;
+}
+
+/* Not Related to colours but must go below where image is called */
+#twitter_icon {
+	background-position: 7px 6px;
+}
+
+#facebook_icon {
+	background-position: -20px 6px;
+}
+
+#googleplus_icon {
+	background-position: -48px 6px;
+}
+
+#skype_icon {
+	background-position: -76px 6px;
+}
+
+#flickr_icon {
+	background-position: -103px 6px;
+}
+
+#linkedin_icon {
+	background-position: -131px 6px;
+}
+
+#vimeo_icon {
+	background-position: -160px 6px;
+}
+
+#youtube_icon {
+	background-position: -187px 6px;
+}
+
+#rss_icon {
+	background-position: -215px 6px;
+}
+
+/* #1c451a */
+#top-bar, #main-menu-wrapper, .pagination li.current a, 
+#footer-wrapper #footer .widget .widget-title, #footer-copy-wrapper {
+	background: #0b3b83;
+}
+
+#main-menu li li a {
+	color: #0b3b83;
+}
+
+#slides .next,#slides .prev {
+	background: url(../../images/direction-controls.png) #0b3b83;
+}
+
+#slides .next {
+	background-position: 0 -28px;
+}
+
+#footer-wrapper #footer .widget .widget-content li {
+	border-color: #0b3b83;
+}
+
+/* "501C451A" is the colour #1c451a, the "50" added to the front give 50% transparency in IE */
+.ie8 #footer-wrapper #footer .widget .widget-content {
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#500b3b83,endColorstr=#500b3b83);
+}
+
+.ie8 .caption {
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#900b3b83,endColorstr=#900b3b83);
+}
+
+/* #cae9c9 */
+#page-header {
+	border-color: #b8d8f9;
+}
+
+#main-menu li li a, #main-menu li.sfHover li a {
+	background:	#b8d8f9;
+}
+
+#main-menu li li li {
+	background:	#b8d8f9;
+}
+
+#slides {
+	border-color: #b8d8f9;
+}
+
+/* #b3dab2 */
+#main-menu li li a:hover {
+	background: #add0f3;
+}
+
+/* #aad1a9 */
+#main-menu li li a {
+	border-color: #9ec3e8;
+}
+
+/* #65a662 */
+#title #tagline {
+	color: #a0caf5;
+}
+
+/* #1c451a Converted to RGBA, use http://hex2rgba.devoth.com/ to convert */
+.caption {
+	background-color: rgba(0, 127, 255, 0.8);
+}
