@@ -75,14 +75,9 @@
 
     <div class="title-wrapper clearfix">
 
-      <pop:content>
-        <div id="title" class="fl">
-          <h1>
-            <a href="/">SoupMobile</a>
-            <span id="tagline"><pop:site.tagline/></span>
-          </h1>
-        </div>
-      </pop:content>
+      <div id="title" class="fl">
+        <img src="/images/logo.png" />
+      </div>
 
       <div class="donate-btn fr">
         <div class="donate-left"></div>
