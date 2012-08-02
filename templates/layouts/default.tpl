@@ -18,6 +18,8 @@
   <link rel="stylesheet" href="/css/prettyPhoto.css" type="text/css" media="all" />
   <link rel="stylesheet" href="/style.css" type="text/css"  media="all"  />
   <link rel="stylesheet" href="/css/blue.css" type="text/css"  media="all"  />
+  <link rel="stylesheet" type="text/css" href="/css/lightview/lightview.css"/>
+
   <link href='http://fonts.googleapis.com/css?family=Bitter:400,400italic,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Nothing+You+Could+Do' rel='stylesheet' type='text/css'>
 
@@ -25,15 +27,6 @@
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
   <pop:region name="css" />
-
-  <!--JavaScript-->
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-  <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js'></script>
-  <script type='text/javascript' src='/js/jquery.prettyPhoto.js'></script>
-  <script type="text/javascript" src="/js/superfish.js"></script>
-  <script type="text/javascript" src="/js/hoverIntent.js"></script>
-  <script type="text/javascript" src="/js/slides.min.jquery.js"></script>
-  <script type="text/javascript" src="/js/jquery.jcarousel.min.js"></script>
   <pop:admin/>
 <!-- END head -->
 </head>
@@ -217,6 +210,21 @@
 
   <!-- END #footer-wrapper -->
   </div>
+
+  <!--JavaScript-->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+  <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js'></script>
+  <!--[if lt IE 9]>
+    <script type="text/javascript" src="/js/excanvas.js"></script>
+  <![endif]-->
+  <script type="text/javascript" src="/js/spinners.min.js"></script>
+  <script type="text/javascript" src="/js/lightview.js"></script>
+
+  <script type='text/javascript' src='/js/jquery.prettyPhoto.js'></script>
+  <script type="text/javascript" src="/js/superfish.js"></script>
+  <script type="text/javascript" src="/js/hoverIntent.js"></script>
+  <script type="text/javascript" src="/js/slides.min.jquery.js"></script>
+  <script type="text/javascript" src="/js/jquery.jcarousel.min.js"></script>
 
   <script type='text/javascript' src='/js/scripts.js'></script>
 
