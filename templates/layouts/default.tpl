@@ -129,7 +129,7 @@
 
       <div class="clearfix">
 
-        <div class="two-forths">
+        <div class="two-fourths">
           <div class="widget">
             <div class="widget-title">
               <h4>About Us</h4>
@@ -139,7 +139,7 @@
             </div>
           </div>
         </div>
-        <div class="one-forth">
+        <div class="one-fourth">
           <div class="widget">
             <div class="widget-title">
               <h4>Site Map</h4>
@@ -154,7 +154,7 @@
             </div>
           </div>
         </div>
-        <div class="one-forth last-col">
+        <div class="one-fourth last-col">
           <div class="widget">
             <div class="widget-title">
               <h4>Flickr</h4>

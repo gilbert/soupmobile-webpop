@@ -180,21 +180,31 @@ strong { font-weight: bold; }
   margin: 0 2.4% 0 0;
   float: left;
 }
-
 .two-thirds-right {
   width: 65.86%;
   margin: 0 2.4% 0 0;
   float: right;
 }
+
+.one-fourth-left {
+  width: 24.52%;
+  margin: 0 3.3% 0 0;
+  float: left;
+}
+.three-fourths-right {
+  width: 72.18%;
+  margin: 0;
+  float: right;
+}
 /* End Left Sidebar */
 
-.one-forth {
+.one-fourth {
   width: 22.52%;
   margin: 0 3.3% 0 0;
   float: left;
 }
 
-.two-forths {
+.two-fourths {
   width: 48.343%;
   margin: 0 3.3% 0 0;
   float: left;
