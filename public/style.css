@@ -77,6 +77,12 @@ ol, ul {
   list-style: none;
 }
 
+blockquote {
+  font-family: serif;
+  margin: 20px;
+}
+blockquote p { font-size: 1.6em; }
+
 blockquote, q {
   quotes: none;
 }
@@ -1678,6 +1684,7 @@ ul.sidebar-list li.active {
 
 /* Utilities */
 .hide { display: none; }
+.center { text-align: center; }
 
 /* Custom stuff */
 #email_subscribe {
@@ -1700,6 +1707,16 @@ ul.sidebar-list li.active {
   max-width: 100%;
 }
 
+.mission {
+  margin-top: 40px;
+}
+.mission img {
+  max-width: 100%;
+}
+.mission blockquote {
+  margin-top: 0;
+}
 .mission .gallery {
+  margin: 0 8px;
   text-align: center;
 }
