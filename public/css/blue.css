@@ -100,7 +100,7 @@ a, .top-menu li, .button1, #footer .button1, .button2, .button3,
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#500b3b83,endColorstr=#500b3b83);
 }
 
-.ie8 .caption {
+.ie8 .slider-caption {
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#900b3b83,endColorstr=#900b3b83);
 }
 
@@ -137,6 +137,6 @@ a, .top-menu li, .button1, #footer .button1, .button2, .button3,
 }
 
 /* #1c451a Converted to RGBA, use http://hex2rgba.devoth.com/ to convert */
-.caption {
+.slider-caption {
 	background-color: rgba(0, 127, 255, 0.8);
 }
