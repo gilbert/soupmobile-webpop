@@ -1676,6 +1676,8 @@ ul.sidebar-list li.active {
   text-decoration: none;
 }
 
+/* Utilities */
+.hide { display: none; }
 
 /* Custom stuff */
 #email_subscribe {
@@ -1696,4 +1698,8 @@ ul.sidebar-list li.active {
 
 #home-highlights img {
   max-width: 100%;
+}
+
+.mission .gallery {
+  text-align: center;
 }
