@@ -92,9 +92,9 @@
         <pop:sections except="search">
           <li class="<pop:active>current_page_item</pop:active>">
             <a href="<pop:permalink/>"><pop:title/></a>
-            <pop:entries wrap="ul">
+            <pop:sections wrap="ul">
               <li><a href="<pop:permalink/>"><pop:title/></a></li>
-            </pop:entries>
+            </pop:sections>
           </li>
         </pop:sections>
       </ul>
@@ -138,9 +138,9 @@
           <div class="widget-content">
             <ul class="sidebar-list">
               <li><a href="/">Home</a></li>
-              <pop:entries from="/about-us">
+              <pop:sections from="/about-us">
                 <li class="<pop:active>active</pop:active>"><a href="<pop:permalink/>"><pop:title/></a></li>
-              </pop:entries>
+              </pop:sections>
             </ul>
           </div>
         </div>
