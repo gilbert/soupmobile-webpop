@@ -89,7 +89,7 @@
           <li class="<pop:active>current_page_item</pop:active>"><a href="/">Home</a></li>
         </pop:home>
 
-        <pop:sections except="search">
+        <pop:sections except="search" from="/about-us">
           <li class="<pop:active>current_page_item</pop:active>">
             <a href="<pop:permalink/>"><pop:title/></a>
             <pop:entries wrap="ul">
