@@ -1707,6 +1707,16 @@ ul.sidebar-list li.active {
   max-width: 100%;
 }
 
+ul#timeline li {
+  margin: 20px;
+  border-bottom: none;
+  list-style-image: url(/images/banner_bullet_16.png);
+}
+ul#timeline .date {
+  color: #F3003C;
+  font-weight: bold;
+}
+
 .mission {
   margin-top: 40px;
 }
