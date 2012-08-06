@@ -89,12 +89,12 @@
           <li class="<pop:active>current_page_item</pop:active>"><a href="/">Home</a></li>
         </pop:home>
 
-        <pop:sections except="search" from="/about-us">
+        <pop:sections except="search" from="/">
           <li class="<pop:active>current_page_item</pop:active>">
             <a href="<pop:permalink/>"><pop:title/></a>
-            <pop:entries wrap="ul">
+            <pop:sections wrap="ul">
               <li><a href="<pop:permalink/>"><pop:title/></a></li>
-            </pop:entries>
+            </pop:sections>
           </li>
         </pop:sections>
       </ul>

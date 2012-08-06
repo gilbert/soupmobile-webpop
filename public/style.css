@@ -415,6 +415,9 @@ strong { font-weight: bold; }
   border-radius: 30px;
   text-decoration:none;
 }
+#main-menu li a {
+  color: white;
+}
 
 #main-menu li {
   font-size: 16px;

@@ -1,10 +1,5 @@
 <pop:layout name="sidebar"/>
-
-<pop:block region="css">
-  <style type="text/css">
-    #page-header { display: none; }
-  </style>
-</pop:block>
+<pop:include template="includes/hide-banner" />
 
 
 <pop:block region="main">
