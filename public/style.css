@@ -1730,3 +1730,33 @@ ul#timeline .date {
   margin: 0 8px;
   text-align: center;
 }
+
+#donate table {
+  border-left-color: #DEE0E0;
+}
+#donate h2 { margin: 10px 0; }
+#donate h5 { color: #0b3b83; }
+#donate label { display: inline; }
+#donate input[type="radio"] {
+  margin-right: 5px;
+  position: relative;
+  top: 1px;
+}
+
+#donate .form-height {
+  text-align: left;
+  height: 390px;
+}
+#donate .form-height.first { height: 380px; }
+
+
+#donate .form-height input[name="otheramount"] {
+  padding: 5px;
+  width: 50px;
+}
+#donate .field {
+  padding: 10px 15px 0;
+}
+#donate .comments-field {
+  text-align: left;
+}

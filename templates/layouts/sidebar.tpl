@@ -74,7 +74,7 @@
 
       <div class="donate-btn fr">
         <div class="donate-left"></div>
-        <a href="#" class="donate-mid"><span>Donate Now+</span></a>
+        <a href="<pop:permalink from="donate" />" class="donate-mid"><span>Donate Now+</span></a>
         <div class="donate-right">
           <div class="donate-right-inner"></div>
         </div>
