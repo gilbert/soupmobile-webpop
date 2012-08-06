@@ -93,7 +93,12 @@
           <li class="<pop:active>current_page_item</pop:active>">
             <a href="<pop:permalink/>"><pop:title/></a>
             <pop:sections wrap="ul">
-              <li><a href="<pop:permalink/>"><pop:title/></a></li>
+              <li>
+                <a href="<pop:permalink/>"><pop:title/></a>
+                <pop:sections wrap="ul">
+                <li><a href="<pop:permalink/>"><pop:title/></a></li>
+                </pop:sections>
+              </li>
             </pop:sections>
           </li>
         </pop:sections>
