@@ -228,6 +228,8 @@
 
   <script type='text/javascript' src='/js/scripts.js'></script>
 
+  <pop:region name="js" />
+
   <pop:track/>
   <pop:development.log/>
 </body>
