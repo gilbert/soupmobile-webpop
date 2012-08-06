@@ -1763,3 +1763,8 @@ ul#timeline .date {
 #donate .comments-field {
   text-align: left;
 }
+
+.portrait img {
+  max-width: 100%;
+  text-align: center;
+}
