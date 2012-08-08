@@ -20,8 +20,7 @@
   <div class="mission">
     <img src="/images/mission1banr.png" height="124" width="564" />
     <blockquote>
-      <p>If you can't feed a hundred people, then feed just one!</p>
-      <p>- Mother Teresa</p>
+      <pop:content.mission_1_quote />
     </blockquote>
     <div class="gallery fr">
       <pop:content.mission_1_gallery limit="1">
@@ -51,8 +50,7 @@
   <div class="mission">
     <img src="/images/mission2banr.png" height="124" width="564" />
     <blockquote>
-      <p>To the present hour we both hunder and thirst, and we are poorly clothed, beaten, and homeless</p>
-      <p>- I Corinthians 4:11 NKJV</p>
+      <pop:content.mission_2_quote />
     </blockquote>
     <div class="gallery fl">
       <pop:content.mission_2_gallery limit="1">
@@ -82,8 +80,7 @@
   <div class="mission">
     <img src="/images/mission3banr.png" height="124" width="564" />
     <blockquote>
-      <p>And she brought forth her son, and wrapped him in swaddling clothes, and laid Him in a manger because there was No Room for them in the Inn.</p>
-      <p>- Luke 2:7 KNJV</p>
+      <pop:content.mission_3_quote />
     </blockquote>
     <div class="gallery fr">
       <pop:content.mission_3_gallery limit="1">
