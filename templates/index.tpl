@@ -8,6 +8,14 @@
 
 <pop:block region="main">
 
+  <div class="section">
+    <div class="msg1">
+      <div class="edge-top"></div>
+      <p><pop:content.promotional_text /></p>
+      <div class="edge-bottom"></div>
+    </div>
+  </div>
+
   <pop:content>
     <!-- BEGIN #slides -->
     <div id="slides" class="slide-loader section">
@@ -80,16 +88,6 @@
 
     </div>
 
-    <pop:content>
-      <div class="section">
-        <div class="msg1">
-          <div class="edge-top"></div>
-          <p><pop:promotional_text /></p>
-          <div class="edge-bottom"></div>
-        </div>
-      </div>
-    </pop:content>
-
     <div class="blog-event-prev-wrapper section clearfix">
       <div class="two-thirds">
         <h3 class="title1">Latest News<span class="title-end"></span></h3>
@@ -124,9 +122,18 @@
           </div>
         </div>
       </div>
+
+
       <div class="one-third last-col">
-        <h3 class="title1">Events<span class="title-end"></span></h3>
+        <h3 class="title1">Connect with SoupMobile<span class="title-end"></span></h3>
+
         <div class="event-prev clearfix">
+          <img alt="Find us on Facebook." src="images/find-us-on-facebook.jpeg" height="50" width="309" />
+          <br />
+          <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fsoupmobile&amp;width=309&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=false&amp;appId=170862359670878" scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 309px; height: 258px;" allowtransparency="true"></iframe>
+        </div>
+
+<!--         <div class="event-prev clearfix">
           <div class="event-prev-date">
             <p class="month">May</p>
             <p class="day">30</p>
@@ -136,30 +143,10 @@
             <p><strong>Time:</strong> 10am <br>
             <strong>Location:</strong> Lorem Ipsum dolor</p>
           </div>
-        </div>
-        <div class="event-prev clearfix">
-          <div class="event-prev-date">
-            <p class="month">May</p>
-            <p class="day">30</p>
-          </div>
-          <div class="event-prev-content">
-            <h4><a href="event-single.html">Donec facilisis fringilla</a></h4>
-            <p><strong>Time:</strong> 10am <br>
-            <strong>Location:</strong> Lorem Ipsum dolor</p>
-          </div>
-        </div>
-        <div class="event-prev clearfix">
-          <div class="event-prev-date">
-            <p class="month">May</p>
-            <p class="day">30</p>
-          </div>
-          <div class="event-prev-content">
-            <h4><a href="event-single.html">Donec facilisis fringilla</a></h4>
-            <p><strong>Time:</strong> 10am <br>
-            <strong>Location:</strong> Lorem Ipsum dolor</p>
-          </div>
-        </div>
+        </div> -->
       </div>
+
+
     </div>
 
   <!-- END #content -->
