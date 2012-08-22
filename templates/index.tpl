@@ -65,11 +65,14 @@
       <div id="social-buttons">
         <a href="https://www.facebook.com/SoupMobile"><pop:content.facebook_button_image width="140" /></a>
         <a href="https://twitter.com/soupmobile"><pop:content.twitter_button_image width="140" /></a>
-
+      </div>
     </div>
 
+    <div class="bold-divider"></div>
 
     <div id="home-highlights" class="section clearfix block-section">
+
+      <h2>OUR MISSIONS</h2>
 
       <pop:content>
         <div class="one-third">
@@ -94,6 +97,8 @@
       </pop:content>
 
     </div>
+
+    <div class="bold-divider"></div>
 
     <div class="blog-event-prev-wrapper section clearfix">
       <div class="two-thirds">

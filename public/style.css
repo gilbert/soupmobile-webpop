@@ -1689,6 +1689,11 @@ ul.sidebar-list li.active {
 /* Utilities */
 .hide { display: none; }
 .center { text-align: center; }
+.bold-divider {
+  width: 960px;
+  margin: 0 auto 40px auto;
+  border-top: 4px solid #187EEA;
+}
 
 /* Custom stuff */
 #email_subscribe {
@@ -1720,6 +1725,19 @@ ul.sidebar-list li.active {
 
 #home-highlights img {
   max-width: 100%;
+}
+
+#home-highlights h2 {
+  text-align: center;
+  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+  text-decoration: underline;
+  position: relative;
+  top: -15px;
+  font-weight: bold;
+  color: #124;
+  font-size: 2em;
+  margin-bottom: 30px;
+  left: -42px;
 }
 
 ul#timeline li {
