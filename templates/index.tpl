@@ -102,37 +102,38 @@
 
     <div class="blog-event-prev-wrapper section clearfix">
       <div class="two-thirds">
-        <h3 class="title1">Latest News<span class="title-end"></span></h3>
+        <h3 class="title1">Featured Links<span class="title-end"></span></h3>
+
         <div class="blog-prev clearfix">
           <div class="blog-prev-img">
-            <img src="images/temp-image1.jpg" alt="" />
+            <pop:content.meet_the_soupman_image width="200" height="150" resize="fill" />
           </div>
           <div class="blog-prev-content">
-            <h4><a href="blog-single.html">Dasellus ac nibh urna donec ac urna</a><span>Posted May 30, 2012 by John Smith</span></h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam feugiat dignissim metus, id vestibulum tellus suscipit vitae. Cras ante sapien, commodo</p>
-            <p><a href="blog-single.html" class="button1">Read More &raquo;</a></p>
+            <h4><a href="blog-single.html">Meet the SoupMan</a><span>Posted May 30, 2012 by John Smith</span></h4>
+            <p><pop:content.meet_the_soupman_description /></p>
+            <p>
+              <a href="/about-us/meet-the-soupman" class="button1">SoupMan's Story</a>
+              <a href="http://thesoupman.blogspot.com/" class="button1">SoupMan's Blog</a>
+            </p>
           </div>
         </div>
-        <div class="blog-prev clearfix">
-          <div class="blog-prev-img">
-            <img src="images/temp-image1.jpg" alt="" />
+
+        <pop:entries from="/">
+
+          <div class="blog-prev clearfix">
+            <div class="blog-prev-img">
+              <pop:image width="200" height="150" resize="fill" />
+            </div>
+            <div class="blog-prev-content">
+              <h4><a href="blog-single.html"><pop:title /></a><span>Posted May 30, 2012 by John Smith</span></h4>
+              <p><pop:description /></p>
+              <p><a href="<pop:page_link />" class="button1">Read More &raquo;</a></p>
+            </div>
           </div>
-          <div class="blog-prev-content">
-            <h4><a href="blog-single.html">Dasellus ac nibh urna donec ac urna</a><span>Posted May 30, 2012 by John Smith</span></h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam feugiat dignissim metus, id vestibulum tellus suscipit vitae. Cras ante sapien, commodo</p>
-            <p><a href="blog-single.html" class="button1">Read More &raquo;</a></p>
-          </div>
-        </div>
-        <div class="blog-prev clearfix">
-          <div class="blog-prev-img">
-            <img src="images/temp-image1.jpg" alt="" />
-          </div>
-          <div class="blog-prev-content">
-            <h4><a href="blog-single.html">Dasellus ac nibh urna donec ac urna</a><span>Posted May 30, 2012 by John Smith</span></h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam feugiat dignissim metus, id vestibulum tellus suscipit vitae. Cras ante sapien, commodo</p>
-            <p><a href="blog-single.html" class="button1">Read More &raquo;</a></p>
-          </div>
-        </div>
+
+        </pop:entries>
+
+
       </div>
 
 
