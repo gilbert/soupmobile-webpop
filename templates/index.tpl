@@ -64,10 +64,10 @@
 
       <div id="social-buttons">
         <a href="https://www.facebook.com/SoupMobile">
-          <pop:facebook_image width="150" />
+          <pop:facebook_button_image width="150" />
         </a>
         <a href="https://twitter.com/soupmobile">
-          <pop:twitter_image width="150" />
+          <pop:twitter_button_image width="150" />
         </a>
       </div>
 
