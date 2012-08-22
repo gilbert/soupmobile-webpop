@@ -1696,6 +1696,8 @@ ul.sidebar-list li.active {
   margin: 0;
   text-align: center;
   display: inline-block;
+  position: relative;
+  top: -26px;
 }
 #email_subscribe form {
   padding: 10px 20px;
