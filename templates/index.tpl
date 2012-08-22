@@ -45,20 +45,32 @@
   <!-- BEGIN #content -->
   <div id="content">
 
+    <div class="center">
 
-    <div id="email_subscribe" class="msg1">
-      <div class="edge-top"></div>
-      <form action="http://visitor.r20.constantcontact.com/d.jsp" method="post">
-        <span>
-          <img src="http://soupmobile.org/images/buttons_icons/email-newsletter-text.png" style="margin-right: 10px;">
-          <input name="ea" size="27" value="Enter Your Email Address" onfocus="if(this.value == 'Enter Your Email Address') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter Your Email Address';}" type="text">
-          <input style="margin-left: 10px;" src="http://soupmobile.org/images/buttons_icons/email-subscribe-button.png" value="Submit" type="image">
-        </span>
-        <input name="llr" value="5dl5mvcab" type="hidden">
-        <input name="m" value="1102377331838" type="hidden">
-        <input name="p" value="oi" type="hidden">
-      </form>
-      <div class="edge-bottom"></div>
+      <div id="email_subscribe" class="msg1">
+        <div class="edge-top"></div>
+        <form action="http://visitor.r20.constantcontact.com/d.jsp" method="post">
+          <span>
+            <img src="http://soupmobile.org/images/buttons_icons/email-newsletter-text.png" style="margin-right: 10px;">
+            <input name="ea" size="27" value="Enter Your Email Address" onfocus="if(this.value == 'Enter Your Email Address') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter Your Email Address';}" type="text">
+            <input style="margin-left: 10px;" src="http://soupmobile.org/images/buttons_icons/email-subscribe-button.png" value="Submit" type="image">
+          </span>
+          <input name="llr" value="5dl5mvcab" type="hidden">
+          <input name="m" value="1102377331838" type="hidden">
+          <input name="p" value="oi" type="hidden">
+        </form>
+        <div class="edge-bottom"></div>
+      </div>
+
+      <div id="social-buttons">
+        <a href="https://www.facebook.com/SoupMobile">
+          <pop:facebook_image width="150" />
+        </a>
+        <a href="https://twitter.com/soupmobile">
+          <pop:twitter_image width="150" />
+        </a>
+      </div>
+
     </div>
 
 

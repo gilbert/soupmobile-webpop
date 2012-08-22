@@ -1693,7 +1693,9 @@ ul.sidebar-list li.active {
 /* Custom stuff */
 #email_subscribe {
   width: 675px;
-  margin: 0 auto 20px;
+  margin: 0;
+  text-align: center;
+  display: inline-block;
 }
 #email_subscribe form {
   padding: 10px 20px;
@@ -1705,6 +1707,13 @@ ul.sidebar-list li.active {
   width: 200px;
   margin-bottom: 0;
   padding: 5px;
+}
+
+#social-buttons {
+  display: inline-block;
+}
+#social-buttons a {
+  padding-left: 15px;
 }
 
 #home-highlights img {
