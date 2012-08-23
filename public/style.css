@@ -1808,3 +1808,11 @@ ul#timeline .date {
   max-width: 100%;
   text-align: center;
 }
+
+table.wishlist-entry {
+  width: 100%;
+}
+table.wishlist-entry td {
+  vertical-align: top;
+}
+table.wishlist-entry td.img { width: 380px; }
