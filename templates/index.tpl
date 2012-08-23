@@ -63,7 +63,7 @@
       </div>
 
       <div id="social-buttons">
-        <a href="https://www.facebook.com/SoupMobile"><pop:content.facebook_button_image width="140" /></a>
+        <a href="https://www.facebook.com/SoupMobile/app_188478344611959"><pop:content.facebook_button_image width="140" /></a>
         <a href="https://twitter.com/soupmobile"><pop:content.twitter_button_image width="140" /></a>
       </div>
     </div>
