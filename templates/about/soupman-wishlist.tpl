@@ -9,12 +9,12 @@
   </div>
 
   <ul id="soupman-wishlist">
-    <pop:entries from="about-us/soupmans-wishlist">
+    <pop:entries from="soupmans-wishlist">
       <table class="wishlist-entry" border="0" cellspacing="10">
         <tbody>
           <tr>
             <td class="img" valign="top"><img src="<pop:image.src />" alt="<pop:image.alt />"></td>
-            <td valign="top">
+            <td class="body" valign="top">
               <pop:body />
             </td>
           </tr>
