@@ -279,6 +279,16 @@ strong { font-weight: bold; }
   max-height: 212px;
   overflow: hidden;
 }
+.sidebar-banner {
+  width: auto;
+  max-height: 100%;
+  margin: 0 auto 15px;
+  border: 10px solid;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
 
 #top-bar {
   padding: 7px 0 7px 0;

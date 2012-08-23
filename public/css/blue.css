@@ -105,7 +105,7 @@ a, .top-menu li, .button1, #footer .button1, .button2, .button3,
 }
 
 /* #cae9c9 */
-#page-header {
+#page-header, .sidebar-banner {
 	border-color: #b8d8f9;
 }
 
