@@ -103,11 +103,6 @@
           </li>
         </pop:sections>
       </ul>
-
-      <form method="get" action="search-results.html" id="menu-search" class="fr">
-        <input type="text" onblur="if(this.value=='')this.value='Search...';" onfocus="if(this.value=='Search...')this.value='';" value="Search..." name="s" />
-      </form>
-
     </div>
 
     <!-- END #header-inner -->
