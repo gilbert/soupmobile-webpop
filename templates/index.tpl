@@ -140,7 +140,20 @@
       <div class="one-third last-col">
         <h3 class="title1">Connect with SoupMobile<span class="title-end"></span></h3>
 
+        <pop:content>
+          <a class="lightview"
+             data-lightview-type="iframe"
+             title="Soupmobile"
+             href="<pop:soupman_video_embed_url />"
+             data-lightview-options="width: 450, height: 340, viewport: 'scale'"
+          >
+            <pop:content.soupman_video_preview_image resize="fit" width="305" />
+          </a>
+        </pop:content>
+
         <div class="event-prev clearfix">
+          <SCRIPT charset="utf-8" type="text/javascript" src="http://ws.amazon.com/widgets/q?rt=tf_mfw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822/US/wwwsoupmobile-20/8001/d3c5fbdf-896f-4ca7-aff7-513b3000e566"> </SCRIPT> <NOSCRIPT><A HREF="http://ws.amazon.com/widgets/q?rt=tf_mfw&ServiceVersion=20070822&MarketPlace=US&ID=V20070822%2FUS%2Fwwwsoupmobile-20%2F8001%2Fd3c5fbdf-896f-4ca7-aff7-513b3000e566&Operation=NoScript">Amazon.com Widgets</A></NOSCRIPT>
+
           <img alt="Find us on Facebook." src="images/find-us-on-facebook.jpeg" height="50" width="309" />
           <br />
           <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fsoupmobile&amp;width=309&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=false&amp;appId=170862359670878" scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 309px; height: 258px;" allowtransparency="true"></iframe>
