@@ -7,13 +7,11 @@
 
   <pop:content.intro />
 
-  <pop:content.partner_logos>
-    <a class="lightview"
-       data-lightview-title="<pop:alt />"
-       href="<pop:src />"
-       data-lightview-group="image_gallery"
-       data-lightview-group-options="controls: 'thumbnails'"
-    ><pop:value resize="fill" width="160" height="100" /></a>
-  </pop:content.partner_logos>
+
+  <div id="logos-page">
+    <pop:entries>
+      <a href="<pop:website />"><img src="<pop:logo.src />" alt="<pop:title />"></a>
+    </pop:entries>
+  </div>
 
 </pop:block>

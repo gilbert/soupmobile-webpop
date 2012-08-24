@@ -1828,3 +1828,9 @@ table.wishlist-entry td {
 }
 table.wishlist-entry td.img { width: 380px; vertical-align: middle; }
 table.wishlist-entry td.body { padding-top: 30px; }
+
+#logos-page img {
+  border: 4px solid;
+  float: left;
+  margin: 10px;
+}
