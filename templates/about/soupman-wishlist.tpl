@@ -8,8 +8,10 @@
     <h2><pop:content.title /></h2>
   </div>
 
+  <pop:content.intro />
+
   <ul id="soupman-wishlist">
-    <pop:entries from="soupmans-wishlist">
+    <pop:entries>
       <table class="wishlist-entry" border="0" cellspacing="10">
         <tbody>
           <tr>

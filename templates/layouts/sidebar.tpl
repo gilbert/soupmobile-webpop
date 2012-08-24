@@ -26,9 +26,12 @@
       <div class="one-fourth-left">
 
         <div class="widget">
-          <div class="widget-title">
-            <h4>Main Menu</h4>
-          </div>
+
+          <a href="/about-us">
+            <span class="widget-title">
+              <h4>Main Menu</h4>
+            </span>
+          </a>
           <div class="widget-content">
             <ul class="sidebar-list">
               <li><a href="/">Home</a></li>
@@ -37,6 +40,21 @@
               </pop:sections>
             </ul>
           </div>
+
+          <pop:sections from="/" except="home,about-us,donate,lons-limelights">
+            <a href="<pop:permalink />">
+              <span class="widget-title">
+                <h4><pop:title /></h4>
+              </span>
+            </a>
+            <div class="widget-content">
+              <pop:sections>
+                <ul class="sidebar-list">
+                  <li class="<pop:active>active</pop:active>"><a href="<pop:permalink/>"><pop:title/></a></li>
+                </ul>
+              </pop:sections>
+            </div>
+          </pop:sections>
         </div>
       </div>
     </div>
