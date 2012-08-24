@@ -25,7 +25,7 @@
       </div>
       <div class="one-fourth-left">
 
-        <div class="widget">
+        <div class="sidebar widget">
 
           <a href="/about-us">
             <span class="widget-title">

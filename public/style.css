@@ -1441,6 +1441,10 @@ ul.sidebar-list li.active {
   background: #B8D8F9;
 }
 
+#content .widget.sidebar > a {
+  text-decoration: none;
+}
+
 #content .widget .widget-title {
   color: #fff;
 }
@@ -1472,7 +1476,7 @@ ul.sidebar-list li.active {
   -o-border-radius: 3px 3px 0 0;
   border-radius: 3px 3px 0 0;
 }
-#content .widget .widget-title:hover a {
+#content .widget .widget-title:hover h4 {
   text-decoration: underline;
 }
 
