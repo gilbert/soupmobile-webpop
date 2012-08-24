@@ -1,4 +1,4 @@
-<pop:layout name="sidebar" />
+<pop:layout name="default" />
 
 <pop:block region="css">
   <style type="text/css">
