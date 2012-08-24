@@ -3,10 +3,8 @@
 
 
 <pop:block region="main">
-  <div class="section">
-    <h1><pop:content.title /></h1>
 
-    <pop:content.body />
+  <h1><pop:content.title /></h1>
+  <pop:content.body />
 
-  </div>
 </pop:block>
