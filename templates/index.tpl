@@ -106,7 +106,7 @@
 
         <div class="blog-prev clearfix">
           <div class="blog-prev-img">
-            <pop:content.meet_the_soupman_image width="200" height="150" resize="fill" />
+            <a href="/about-us/meet-the-soupman"><pop:content.meet_the_soupman_image width="200" height="150" resize="fill" /></a>
           </div>
           <div class="blog-prev-content">
             <h4><a href="/about-us/meet-the-soupman">Meet the SoupMan</a><span>Posted May 30, 2012 by John Smith</span></h4>
