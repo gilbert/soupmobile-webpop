@@ -6,15 +6,7 @@
   <pop:content.introduction />
 
   <div class="center">
-    <a class="lightview"
-       data-lightview-type="iframe"
-       rel="shadowbox;width=600;height=504;player=swf"
-       title="Soupmobile"
-       href="http://www.youtube.com/v/gfWGwQBx1hI&amp;hl=en&amp;fs=1&amp;rel=0&amp;autoplay=1"
-       data-lightview-options="viewport: 'scale'"
-    >
-      <img src="/images/mission-page-vid.jpeg" height="183" width="300">
-    </a>
+    <iframe class="youtube-player" type="text/html" width="640" height="385" src="http://www.youtube.com/embed/gfWGwQBx1hI" frameborder="0"></iframe>
   </div>
 
   <div class="mission">
