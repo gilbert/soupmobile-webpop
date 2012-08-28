@@ -59,17 +59,12 @@
       <div class="widget-content">
 
         <ul id="mycarousel" class="jcarousel-skin-tango">
-            <li><a href="#"><img src="images/temp-sp1.jpg" alt="" /></a></li>
-            <li><a href="#"><img src="images/temp-sp1.jpg" alt="" /></a></li>
-          <li><a href="#"><img src="images/temp-sp1.jpg" alt="" /></a></li>
-          <li><a href="#"><img src="images/temp-sp1.jpg" alt="" /></a></li>
-          <li><a href="#"><img src="images/temp-sp1.jpg" alt="" /></a></li>
-          <li><a href="#"><img src="images/temp-sp1.jpg" alt="" /></a></li>
-            <li><a href="#"><img src="images/temp-sp1.jpg" alt="" /></a></li>
-          <li><a href="#"><img src="images/temp-sp1.jpg" alt="" /></a></li>
-          <li><a href="#"><img src="images/temp-sp1.jpg" alt="" /></a></li>
-          <li><a href="#"><img src="images/temp-sp1.jpg" alt="" /></a></li>
-         </ul>
+          <pop:entries from="our-partners">
+            <li>
+              <a href="<pop:website />"><pop:logo resize="fill" width="160px" height="80px" /></a>
+            </li>
+          </pop:entries>
+        </ul>
 
       </div>
     </div>
