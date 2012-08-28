@@ -66,6 +66,7 @@
   <!--JavaScript-->
   <pop:include template="includes/common-js" />
   <pop:region name="js" />
+  <script type='text/javascript' src='/js/scripts.js'></script>
 
   <pop:track/>
   <pop:development.log/>

@@ -11,5 +11,3 @@
 <script type="text/javascript" src="/js/hoverIntent.js"></script>
 <script type="text/javascript" src="/js/slides.min.jquery.js"></script>
 <script type="text/javascript" src="/js/jquery.jcarousel.min.js"></script>
-
-<script type='text/javascript' src='/js/scripts.js'></script>

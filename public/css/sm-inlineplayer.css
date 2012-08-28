@@ -127,7 +127,6 @@ ul.graphic li a.sm2_link:hover {
  background-image:url(/images/ui/icon_play.png);
  background-position:3px 50%;
  background-repeat:no-repeat;
- _background-image:url(/image/ui/icon_play.gif); /* IE 6 */
 }
 
 ul.graphic li a.sm2_link:hover {
@@ -142,14 +141,14 @@ ul.graphic li a.sm2_paused {
 
 ul.graphic li a.sm2_paused:hover {
  background:#003366 url(/image/ui/icon_play.png) no-repeat 3px 50%;
- _background-image:url(/image/ui/icon_play.gif);
+ color: white;
 }
 
 ul.graphic li a.sm2_playing,
 ul.graphic li a.sm2_playing:hover {
  background:#003366 url(/image/ui/icon_pause.png) no-repeat 3px 50%;
- _background-image:url(/image/ui/icon_pause.gif);
  text-decoration:none;
+ color: white;
 }
 
 /* hide button while playing?
