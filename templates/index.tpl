@@ -76,23 +76,23 @@
 
       <pop:content>
         <div class="one-third">
-          <h3 class="title1"><pop:highlight_1_title /><span class="title-end"></span></h3>
-          <img src="<pop:highlight_1_image.src />" />
+          <h3 class="title1"><a href="/our-missions#mission1"><pop:highlight_1_title /></a><span class="title-end"></span></h3>
+          <a href="/our-missions#mission1"><img src="<pop:highlight_1_image.src />" /></a>
           <!-- <p><a href="#" class="button2">link</a></p> -->
         </div>
       </pop:content>
 
       <pop:content>
         <div class="one-third">
-          <h3 class="title1"><pop:highlight_2_title /><span class="title-end"></span></h3>
-          <img src="<pop:highlight_2_image.src />" />
+          <h3 class="title1"><a href="/our-missions#mission2"><pop:highlight_2_title /></a><span class="title-end"></span></h3>
+          <a href="/our-missions#mission2"><img src="<pop:highlight_2_image.src />" /></a>
         </div>
       </pop:content>
 
       <pop:content>
         <div class="one-third last-col">
-          <h3 class="title1"><pop:highlight_3_title /><span class="title-end"></span></h3>
-          <img src="<pop:highlight_3_image.src />" />
+          <h3 class="title1"><a href="/our-missions#mission3"><pop:highlight_3_title /></a><span class="title-end"></span></h3>
+          <a href="/our-missions#mission3"><img src="<pop:highlight_3_image.src />" /></a>
         </div>
       </pop:content>
 

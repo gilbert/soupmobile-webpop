@@ -18,7 +18,7 @@
   </div>
 
   <div class="mission">
-    <img src="/images/mission1banr.png" height="124" width="564" />
+    <img id="mission1" src="/images/mission1banr.png" height="124" width="564" />
     <blockquote>
       <pop:content.mission_1_quote />
     </blockquote>
@@ -48,7 +48,7 @@
 
 
   <div class="mission">
-    <img src="/images/mission2banr.png" height="124" width="564" />
+    <img id="mission2" src="/images/mission2banr.png" height="124" width="564" />
     <blockquote>
       <pop:content.mission_2_quote />
     </blockquote>
@@ -78,7 +78,7 @@
 
 
   <div class="mission">
-    <img src="/images/mission3banr.png" height="124" width="564" />
+    <img id="mission3" src="/images/mission3banr.png" height="124" width="564" />
     <blockquote>
       <pop:content.mission_3_quote />
     </blockquote>
