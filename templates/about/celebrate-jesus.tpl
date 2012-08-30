@@ -3,9 +3,9 @@
 
 
 <pop:block region="main">
-  <h1 class="center"><pop:content.title /></h1>
+  <h1 class="centered"><pop:content.title /></h1>
 
-  <div class="center">
+  <div class="centered">
     <pop:content>
       <a class="lightview"
          data-lightview-type="iframe"

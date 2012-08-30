@@ -2,10 +2,10 @@
 
 <pop:block region="main">
 
-  <h1 class="center"><pop:content.title /></h1>
+  <h1 class="centered"><pop:content.title /></h1>
   <pop:content.introduction />
 
-  <div class="center">
+  <div class="centered">
     <iframe class="youtube-player" type="text/html" width="640" height="385" src="http://www.youtube.com/embed/gfWGwQBx1hI" frameborder="0"></iframe>
   </div>
 

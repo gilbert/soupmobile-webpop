@@ -45,7 +45,7 @@
   <!-- BEGIN #content -->
   <div id="content">
 
-    <div class="center">
+    <div class="centered">
 
       <div id="email_subscribe" class="msg1">
         <div class="edge-top"></div>

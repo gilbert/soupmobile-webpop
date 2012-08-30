@@ -1709,7 +1709,7 @@ ul.sidebar-list li.active {
 
 /* Utilities */
 .hide { display: none; }
-.center { text-align: center; }
+.centered { text-align: center; }
 .bold-divider {
   width: 960px;
   margin: 0 auto 40px auto;

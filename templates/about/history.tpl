@@ -4,7 +4,7 @@
 
 <pop:block region="main">
 
-  <div class="center">
+  <div class="centered">
     <h2><pop:content.title /></h2>
     <pop:content.history_banner />
   </div>
