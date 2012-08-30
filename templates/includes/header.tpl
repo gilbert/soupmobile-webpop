@@ -54,18 +54,19 @@
       <pop:home editable="false">
         <li class="<pop:active>current_page_item</pop:active>"><a href="/">Home</a></li>
       </pop:home>
-
       <pop:sections except="search,donate" from="/">
         <li class="<pop:active>current_page_item</pop:active>">
           <a href="<pop:permalink/>"><pop:title/></a>
-          <pop:sections wrap="ul">
-            <li>
-              <a href="<pop:permalink/>"><pop:title/></a>
-              <pop:sections wrap="ul">
-              <li><a href="<pop:permalink/>"><pop:title/></a></li>
-              </pop:sections>
-            </li>
-          </pop:sections>
+          <pop:show_subs>
+            <pop:sections wrap="ul">
+              <li>
+                <a href="<pop:permalink/>"><pop:title/></a>
+                <pop:sections wrap="ul">
+                <li><a href="<pop:permalink/>"><pop:title/></a></li>
+                </pop:sections>
+              </li>
+            </pop:sections>
+          </pop:show_subs>
         </li>
       </pop:sections>
     </ul>
