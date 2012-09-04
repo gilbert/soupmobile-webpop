@@ -1787,6 +1787,7 @@ ul#timeline .date {
 
 #donate table {
   border-left-color: #DEE0E0;
+  margin: 0 auto;
 }
 #donate h2 { margin: 10px 0; }
 #donate h5 { color: #0b3b83; }
@@ -1813,6 +1814,19 @@ ul#timeline .date {
 }
 #donate .comments-field {
   text-align: left;
+}
+
+#donate-confirm {
+  text-align: left;
+  padding-top: 30px;
+}
+#donate-confirm .img-wrap {
+  width: 534px;
+  min-height: 400px;
+  float: right;
+}
+#donate-confirm .img-wrap img {
+  height: auto;
 }
 
 .portrait img {
