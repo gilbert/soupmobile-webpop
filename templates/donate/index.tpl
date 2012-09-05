@@ -50,7 +50,7 @@
               </pop:form:deliver>
 
                 <div class="form-height first">
-                  <h4 style="color:red">$1 Million Dollars – <a href="index.php?option=com_content&amp;view=article&amp;id=70" target="_blank">Click HERE for a personal message from the SoupMan.</a></h4>
+                  <h4 style="color:red">$1 Million Dollars – <a href="/donate/one-million" target="_blank">Click HERE for a personal message from the SoupMan.</a></h4>
                   <div class="field"><input id="amount_6" class="mainForm" name="amount" type="radio" value="5000"><label class="formFieldOption" for="field_1_option_6">$5,000 Where needed most</label></div>
                   <div class="field"><input id="amount_5" class="mainForm" name="amount" type="radio" value="1000"><label class="formFieldOption" for="field_1_option_5">$1,000 Provides Gas for one month</label></div>
                   <div class="field"><input id="amount_4" class="mainForm" name="amount" type="radio" value="500"><label class="formFieldOption" for="field_1_option_4">$500 Provides 500 meals

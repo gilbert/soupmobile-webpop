@@ -48,11 +48,13 @@
               </span>
             </a>
             <div class="widget-content">
-              <pop:sections>
-                <ul class="sidebar-list">
-                  <li class="<pop:active>active</pop:active>"><a href="<pop:permalink/>"><pop:title/></a></li>
-                </ul>
-              </pop:sections>
+              <pop:show_subs>
+                <pop:sections>
+                  <ul class="sidebar-list">
+                    <li class="<pop:active>active</pop:active>"><a href="<pop:permalink/>"><pop:title/></a></li>
+                  </ul>
+                </pop:sections>
+              </pop:show_subs>
             </div>
           </pop:sections>
         </div>
