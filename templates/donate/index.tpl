@@ -26,17 +26,17 @@
         <tbody>
           <tr>
             <td width="280" valign="top">
-              <h2>Mission #1 Feeding the Homeless</h2>
+              <h2>Mission #1<br />Feeding the Homeless</h2>
               <h5>Serving more than 200,000 meals per year</h5>
             </td>
 
             <td width="280" valign="top">
-              <h2>Mission #2 SoupMobile Village</h2>
+              <h2>Mission #2<br />SoupMobile Village</h2>
               <h5>Housing the homeless in our 7 group homes</h5>
             </td>
 
             <td width="280" valign="top">
-              <h2>Mission #3 Celebrate Jesus</h2>
+              <h2>Mission #3<br />Celebrate Jesus</h2>
               <h5>Giving the homeless a magical Christmas</h5>
             </td>
           </tr>

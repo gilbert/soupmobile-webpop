@@ -323,8 +323,8 @@ strong { font-weight: bold; }
 
 /* 3.1 - Donate Button */
 .donate-btn {
-  font-size: 22px;
-  text-indent: -14px;
+  font-size: 32px;
+  text-indent: -8px;
   position: relative;
   right: 18px;
 }
@@ -344,6 +344,7 @@ strong { font-weight: bold; }
   position: relative;
   display: block;
   z-index: 99;
+  top: 3px;
 }
 
 .donate-btn .donate-left, .donate-right-inner {
