@@ -125,7 +125,7 @@
               <a href="<pop:page_link />" alt="<pop:title />"><pop:image width="200" height="150" resize="fill" /></a>
             </div>
             <div class="blog-prev-content">
-              <h4><a href="<pop:page_link />"><pop:title /></a><span>Posted May 30, 2012 by John Smith</span></h4>
+              <h4><a href="<pop:page_link />"><pop:title /></a><!-- <span>Posted May 30, 2012 by John Smith</span> --></h4>
               <p><pop:description /></p>
               <p><a href="<pop:page_link />" class="button1">Read More &raquo;</a></p>
             </div>
