@@ -109,7 +109,7 @@
             <a href="/about-us/meet-the-soupman"><pop:content.meet_the_soupman_image width="200" height="150" resize="fill" /></a>
           </div>
           <div class="blog-prev-content">
-            <h4><a href="/about-us/meet-the-soupman">Meet the SoupMan</a><span>Posted May 30, 2012 by John Smith</span></h4>
+            <h4><a href="/about-us/meet-the-soupman">Meet the SoupMan</a><!-- <span>Posted May 30, 2012 by John Smith</span> --></h4>
             <p><pop:content.meet_the_soupman_description /></p>
             <p>
               <a href="/about-us/meet-the-soupman" class="button1">SoupMan's Story</a>
