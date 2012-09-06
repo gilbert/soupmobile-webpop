@@ -1829,6 +1829,10 @@ ul#timeline .date {
 #donate-confirm .img-wrap img {
   height: auto;
 }
+#donate-error {
+  background: #FDD;
+  padding: 18px 0 4px 0;
+}
 
 .portrait img {
   max-width: 100%;

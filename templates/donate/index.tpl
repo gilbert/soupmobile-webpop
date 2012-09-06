@@ -8,18 +8,19 @@
 
 <pop:block region="main">
   <div class="section centered">
+
+    <pop:form:deliver.error>
+      <div id="donate-error">
+        <h1>There was a problem with your request:</h1>
+        <h3><pop:form:deliver.reason /></h3>
+      </div>
+    </pop:form:deliver.error>
+
     <h1>Donate</h1>
 
     <div class="<pop:form:deliver.success>hide</pop:form:deliver.success>">
       <p style="text-align: center;">Please note that all donations are tax deductible.<br> If you would like to make a donation using a check or money order, please make it payable to: <strong>SoupMobile Inc.</strong> <br> Mail to: <br> <strong>SoupMobile Inc.  <br> 3017 Commerce St. <br> Dallas, Texas 75226</strong><br> <br> <strong>Fill out the section below to make a donation using a major credit card:</strong></p>
     </div>
-
-    <pop:form:deliver.error>
-      <div id="donate-error">
-        <h1>There was a problem with your request.</h1>
-        <h3><pop:form:deliver.reason /></h3>
-      </div>
-    </pop:form:deliver.error>
 
     <div id="donate" class="<pop:form:deliver.success>hide</pop:form:deliver.success>">
       <table class="donate_table" border="1" cellspacing="0" align="center">
