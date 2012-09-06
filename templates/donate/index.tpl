@@ -61,7 +61,7 @@
                 </div>
                 <input type="hidden" name="type" value="FEED_THE_HOMELESS" />
 
-                <div class="comments-field">Comments:<br> <textarea style="width: 263px; height: 85px;" cols="20" rows="4" name="comment"><pop:form:deliver.error><pop:form:deliver.comment /></pop:form:deliver.error></textarea></div>
+                <div class="comments-field">Comments:<br> <textarea maxlength="110" style="width: 263px; height: 85px;" cols="20" rows="4" name="comment"><pop:form:deliver.error><pop:form:deliver.comment /></pop:form:deliver.error></textarea></div>
                 <p align="right"><input id="saveForm" class="mainForm" type="submit" value="Submit"></p>
 
               </form>
@@ -83,7 +83,7 @@
                 </div>
                 <input type="hidden" name="type" value="SOUPMOBILE_VILLAGE" />
 
-                <div class="comments-field">Comments:<br><textarea style="width: 263px; height: 85px;" cols="20" rows="4" name="comment"><pop:form:deliver.error><pop:form:deliver.comment /></pop:form:deliver.error></textarea></div>
+                <div class="comments-field">Comments:<br><textarea maxlength="110" style="width: 263px; height: 85px;" cols="20" rows="4" name="comment"><pop:form:deliver.error><pop:form:deliver.comment /></pop:form:deliver.error></textarea></div>
                 <p align="right"><input id="saveForm" class="mainForm" type="submit" value="Submit"></p>
 
               </form>
@@ -98,7 +98,7 @@
                 </div>
                 <input type="hidden" name="type" value="CELEBRATE_JESUS" />
 
-                <div class="comments-field">Comments:<br> <textarea style="width: 263px; height: 85px;" cols="20" rows="4" name="comment"><pop:form:deliver.error><pop:form:deliver.comment /></pop:form:deliver.error></textarea></div>
+                <div class="comments-field">Comments:<br> <textarea maxlength="110" style="width: 263px; height: 85px;" cols="20" rows="4" name="comment"><pop:form:deliver.error><pop:form:deliver.comment /></pop:form:deliver.error></textarea></div>
                 <p align="right"><input id="saveForm" class="mainForm" type="submit" value="Submit"></p>
 
               </form>
