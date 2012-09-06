@@ -1832,6 +1832,7 @@ ul#timeline .date {
 #donate-error {
   background: #FDD;
   padding: 18px 0 4px 0;
+  margin-bottom: 20px;
 }
 
 .portrait img {
