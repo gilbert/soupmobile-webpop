@@ -29,19 +29,7 @@
   <script type="text/javascript" src="/js/sm-inlineplayer.js"></script>
   <script type="text/javascript">
     soundManager.setup({
-      url: '/swf/',
-      onready: function() {
-        console.log('Ready to play sound!');
-        return;
-        soundManager.createSound({
-          id: 'mySound', // required
-          url: '/audio/mysoundfile.mp3', // required
-          // optional sound parameters here, see Sound Properties for full list
-          volume: 50,
-          autoPlay: true,
-          whileloading: soundIsLoadingFunction
-        });
-      }
+      url: '/swf/'
     });
   </script>
 </pop:block>
