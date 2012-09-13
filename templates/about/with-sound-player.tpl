@@ -19,6 +19,7 @@
   <script type="text/javascript" src="/js/soundmanager2-jsmin.js"></script>
   <script type="text/javascript" src="/js/sm-inlineplayer.js"></script>
   <script type="text/javascript">
+    inlineplayerAutoplay = false;
     soundManager.setup({
       url: '/swf/'
     });

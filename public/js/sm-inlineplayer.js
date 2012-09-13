@@ -12,6 +12,8 @@
  *
  */
 
+window.inlineplayerAutoplay = true;
+
 function InlinePlayer() {
   var self = this;
   var pl = this;
@@ -28,7 +30,7 @@ function InlinePlayer() {
 
   this.config = {
     playNext: false, // stop after one sound, or play through list until end
-    autoPlay: true  // start playing the first sound right away
+    autoPlay: inlineplayerAutoplay  // start playing the first sound right away
   }
 
   this.css = {
