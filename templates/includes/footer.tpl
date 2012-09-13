@@ -18,7 +18,7 @@
         <ul id="mycarousel" class="jcarousel-skin-tango">
           <pop:entries from="our-partners">
             <li>
-              <a href="<pop:website />"><pop:logo resize="fill" width="160" height="80" /></a>
+              <a href="<pop:website />" target="_blank"><pop:logo resize="fill" width="160" height="80" /></a>
             </li>
           </pop:entries>
         </ul>
