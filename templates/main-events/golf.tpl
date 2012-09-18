@@ -7,11 +7,6 @@
 
   <pop:content.body />
 
-  <p>
-    SoupMobile's 3rd Annual Charity Gold Outing<br />
-    June 1, 2012
-  </p>
-
   <pop:content.image_gallery>
     <a class="lightview"
        data-lightview-title="<pop:alt />"
