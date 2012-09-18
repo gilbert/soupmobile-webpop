@@ -9,8 +9,8 @@
     <div class="top-inner">
 
       <ul class="social-icons fl">
-        <li><a href="https://www.facebook.com/SoupMobile"><span id="twitter_icon"></span></a></li>
-        <li><a href="https://twitter.com/soupmobile"><span id="facebook_icon"></span></a></li>
+        <li><a href="https://www.facebook.com/SoupMobile" target="_blank"><span id="twitter_icon"></span></a></li>
+        <li><a href="https://twitter.com/soupmobile" target="_blank"><span id="facebook_icon"></span></a></li>
         <!-- <li><a href="#"><span id="googleplus_icon"></span></a></li>
         <li><a href="#"><span id="skype_icon"></span></a></li>
         <li><a href="#"><span id="flickr_icon"></span></a></li>
