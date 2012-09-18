@@ -54,7 +54,7 @@
       <pop:home editable="false">
         <li class="<pop:active>current_page_item</pop:active>"><a href="/">Home</a></li>
       </pop:home>
-      <pop:sections except="search,donate,major-events" from="/">
+      <pop:sections except="search,donate" from="/">
         <li class="<pop:active>current_page_item</pop:active>">
           <a href="<pop:permalink/>"><pop:title/></a>
           <pop:show_subs>
