@@ -41,7 +41,7 @@
             </ul>
           </div>
 
-          <pop:sections from="/" except="home,about-us,lons-limelights,search">
+          <pop:sections from="/" except="home,about-us,lons-limelights,search,major-events">
             <a href="<pop:permalink />">
               <span class="widget-title">
                 <h4><pop:title /></h4>
