@@ -51,10 +51,7 @@
   <div id="main-menu-wrapper" class="clearfix">
 
     <ul id="main-menu" class="fl">
-      <pop:home editable="false">
-        <li class="<pop:active>current_page_item</pop:active>"><a href="/">Home</a></li>
-      </pop:home>
-      <pop:sections except="search,donate,home,volunteer" from="/">
+      <pop:sections except="search,donate,volunteer" from="/">
         <li class="<pop:active>current_page_item</pop:active>">
           <a href="<pop:permalink/>"><pop:title/></a>
           <pop:show_subs>
