@@ -33,9 +33,11 @@
   <div class="title-wrapper clearfix">
 
     <div id="title" class="fl">
-      <pop:site>
-        <img src="<pop:logo.src />" />
-      </pop:site>
+      <a href="/">
+        <pop:site>
+          <img src="<pop:logo.src />" />
+        </pop:site>
+      </a>
     </div>
 
     <div class="donate-btn fr">
