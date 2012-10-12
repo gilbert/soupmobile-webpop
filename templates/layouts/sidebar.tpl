@@ -73,4 +73,5 @@
   <pop:track/>
   <pop:development.log/>
 </body>
+<pop:development.log />
 </html>
