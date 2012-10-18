@@ -11,3 +11,8 @@
 <script type="text/javascript" src="/js/hoverIntent.js"></script>
 <script type="text/javascript" src="/js/slides.min.jquery.js"></script>
 <script type="text/javascript" src="/js/jquery.jcarousel.min.js"></script>
+
+<script type="text/javascript">
+  var link = $('<a>').attr('href', '/celebrate-jesus');
+  $('#copyright').wrap(link);
+</script>

@@ -33,7 +33,7 @@
 
     <div id="footer-copy">
       <pop:site editable="false">
-        <p class="clearfix"><span class="fl">© SoupMobile <pop:updated_at format="yyyy" /></span><span class="footer-menu fr"><a href="/our-missions">Missions</a> / <a href="/about-us">About</a> / <a href="/donate">Donate</a></span></p>
+        <p class="clearfix"><span id="copyright" class="fl">&copy; SoupMobile <pop:updated_at format="yyyy" /></span><span class="footer-menu fr"><a href="/our-missions">Missions</a> / <a href="/about-us">About</a> / <a href="/donate">Donate</a></span></p>
       </pop:site>
     </div>
 
