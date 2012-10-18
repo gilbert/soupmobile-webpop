@@ -60,7 +60,7 @@
             <pop:sections wrap="ul">
               <li>
                 <a href="<pop:permalink/>"><pop:title/></a>
-                <pop:sections wrap="ul">
+                <pop:sections wrap="ul" except="pennies-from-heaven">
                 <li><a href="<pop:permalink/>"><pop:title/></a></li>
                 </pop:sections>
               </li>
