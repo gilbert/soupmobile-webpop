@@ -14,7 +14,7 @@
   <div id="content">
 
     <div class="breadcrumbs">
-      <a href="#">Home</a>
+      <a href="/">Home</a>
       <span class="breadcrumbs-arrow"></span>
       About Us
     </div>
