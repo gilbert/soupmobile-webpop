@@ -696,8 +696,7 @@ blockquote {
 
 .button1, #footer .button1, .button2, .button3 {
   background: url(images/btn-bg.png) repeat-x bottom;
-  display: block;
-  float: left;
+  display: inline-block;
   border: #e3e3e3 1px solid;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
@@ -1853,3 +1852,69 @@ table.wishlist-entry td.body { padding-top: 30px; }
   border: 4px solid;
   margin: 10px;
 }
+
+.opportunity {
+  overflow: auto;
+}
+.opportunity > * { float: left; }
+
+.opportunity a.thumb {
+  float: left;
+}
+.opportunity .description {
+  float: left;
+  min-height: 50px;
+  padding: 0 20px;
+  width: 520px;
+}
+.opportunity .short.description {
+  width: 175px;
+}
+.opportunity .short.description label {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+.opportunity .slot-times {
+  padding: 0 20px;
+  width: 104px;
+}
+.opportunity .slot-times ul {
+  font-size: 0.9em;
+}
+.opportunity .min-age {
+  padding: 0 20px;
+}
+.opportunity .amount {
+  padding-right: 20px;
+  width: 80px;
+}
+.opportunity .action {
+  width: 150px;
+  float: left;
+}
+
+.major-btn {
+  background: #b8d8f9;
+  border: 4px solid #b8d8f9;
+  color: #1E0055;
+  display: inline-block;
+  float: left;
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
+  text-align: center;
+  text-decoration: none;
+  width: 48%; height: 240px;
+}
+.major-btn:hover {
+  color: #b8d8f9;
+  background: #0b3b83;
+}
+.major-btn + .major-btn { margin-left: 10px; }
+
+.major-btn.first p { font-size: 5em; }
+.major-btn.first p:first-child { font-size: 1.5em; }
+.major-btn.first p:last-child  { font-size: 3em; position: relative; top: -1em; color: #77f; }
+
+.major-btn.second p { font-size: 3em; }
+.major-btn.second p:first-child  { position: relative; top: 0.7em; }
+.major-btn.second p.mid  { color: #77F; position: relative; top: 0.1em; }
+.major-btn.second p:last-child  { position: relative; top: -0.4em; }
