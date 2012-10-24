@@ -9,7 +9,7 @@
     </pop:content>
 
     <div class="centered">
-      <h6>SoupMobile's 9th Annual</h6>
+      <h6>SoupMobile's 8th Annual</h6>
       <h2><pop:content.title /></h2>
       <h5>Christmas Extravaganza</h5>
     </div>
