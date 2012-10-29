@@ -10,7 +10,6 @@
 
     <div class="centered">
 
-      <!-- LAST TIME: Set form width, redirect to page if form id not allowed -->
       <pop:signup:wufoo.show_form>
         <div id="wufoo-<pop:signup:wufoo.form_id />">
         Fill out my <a href="http://soupmobile.wufoo.com/forms/<pop:signup:wufoo.form_id />">online form</a>.

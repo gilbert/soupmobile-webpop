@@ -4,14 +4,11 @@
 <pop:block region="main">
 
   <div class="section">
-    <pop:content>
-      <img src="<pop:banner.src />" class="sidebar-banner" />
-    </pop:content>
-
     <div class="centered">
-      <h6>SoupMobile's 8th Annual</h6>
-      <h2><pop:content.title /></h2>
-      <h5>Christmas Extravaganza</h5>
+      <pop:content>
+        <img src="<pop:banner.src />" class="sidebar-banner" />
+        <img src="<pop:second_banner.src />" />
+      </pop:content>
     </div>
 
     <a href="/celebrate-jesus/volunteer" class="major-btn first">
@@ -19,7 +16,7 @@
       <p>Volunteer</p>
       <p>Click Here</p>
     </a>
-    <a href="#" class="major-btn second">
+    <a href="/celebrate-jesus/donate" class="major-btn second">
       <p>Can't Volunteer?</p>
       <p class="mid">You can still help!!</p>
       <p>Click Here</p>

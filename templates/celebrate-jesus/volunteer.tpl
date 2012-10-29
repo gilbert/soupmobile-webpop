@@ -4,18 +4,24 @@
 <pop:block region="main">
 
   <div class="section" id="cjv">
-    <pop:content>
-      <img src="<pop:banner.src />" class="sidebar-banner" />
-    </pop:content>
 
     <div class="centered">
-      <h6>SoupMobile's 9th Annual</h6>
+      <pop:content>
+        <img src="<pop:banner.src />" class="sidebar-banner" />
+      </pop:content>
+
       <h2><pop:content.title /></h2>
-      <h5>Christmas Extravaganza</h5>
+
+      <iframe id="cjv-video" width="640" height="480" src="http://www.youtube.com/embed/TCEtYDNnato?rel=0" frameborder="0" allowfullscreen></iframe>
+
+      <h4>Please Click Above to Watch This Important Informational Video About Volunteering at Celebrate Jesus in 2012</h4>
     </div>
 
 
-    <h4>FEATURED SPONSORSHIP OPPORTUNITY:</h4>
+    <div class="centered"><img src="/images/divider_line3.png" alt="" /></div>
+
+
+    <h4 class="half">FEATURED SPONSORSHIP OPPORTUNITY:</h4>
 
     <div class="opportunity">
       <a class="thumb" href="tablesponsor.html"><img id="TableSponsor" src="http://placehold.it/150x150" alt="Table Sponsor." /></a>
@@ -32,85 +38,123 @@
     <div class="centered"><img src="/images/divider_line3.png" alt="" /></div>
 
 
-    <h4>FEATURED VOLUNTEER OPPORTUNITIES:</h4>
+    <h4 class="half">FEATURED GIVING OPPORTUNITY:</h4>
 
     <div class="opportunity">
-      <a class="thumb" href="/celebrate-jesus/signup?fid=z7x3p9&vp=Bus%20Crew"><img id="TableSponsor" src="http://placehold.it/150x150" alt="Table Sponsor." /></a>
+      <a class="thumb" href="/celebrate-jesus/wishlist"><img id="TableSponsor" src="http://placehold.it/150x150" /></a>
+      <div class="description">
+        <label>SoupMan's Christmas Wishlist</label>
+        <p>The SoupMan wants nothing for himself this Christmas, however, he prays you will help him get gifts for 500 of his closest personal homeless friends.</p>
+      </div>
+      <div class="action">
+        <a href="/celebrate-jesus/wishlist">Click Here to See the List</a>
+      </div>
+    </div>
+
+
+    <div class="centered"><img src="/images/divider_line3.png" alt="" /></div>
+
+
+
+    <h4 class="half">FEATURED VOLUNTEER OPPORTUNITIES:</h4>
+
+    <div class="msg1">
+      <div class="edge-top"></div>
+      <p><span class="warning">Note:</span> These top three 'Featured Volunteer Opportunities' all have a <span class="warning">REQUIRED</span> donation amount. If they don't fit within your budget, might we suggest you scroll down to the <a href="#other-opp">Other Volunteer Opportunities</a>, which have <span class="warning">SUGGESTED</span> donation amounts and will be easier on your pocketbook.<br /><br />
+(The SoupMan says all of the Volunteer Opportunities are great, but his favorite is the Banquet Red Carpet!)</p>
+      <div class="edge-bottom"></div>
+    </div>
+
+    <pop:entries limit="2">
+    <div class="opportunity">
+      <a class="thumb" href="<pop:form_id />">
+        <pop:image resize="limit" width="150" height="150" alt="<pop:title />" />
+        <pop:not_image>
+          <img src="http://placehold.it/150x150" />
+        </pop:not_image>
+      </a>
       <div class="short description">
-        <label><a href="/celebrate-jesus/signup?fid=z7x3p9&vp=Bus%20Crew">Bus Crew</a></label>
-        <p>Ride with the SoupMan on the buses and assist in the pick-up of 500 homeless guests.</p>
+        <label><a href="<pop:form_id />"><pop:title /></a></label>
+        <p><pop:description /></p>
       </div>
 
       <div class="slot-count">
         <label>Slots</label>
-        30
+        <pop:slots />
       </div>
 
       <div class="slot-times">
         <label>Date &amp; Time Slots</label>
-        Dec. 24th
-        <ul>
-          <li>6am - 9am</li>
-        </ul>
+        <pop:date_time_slots />
       </div>
 
       <div class="min-age">
         <label>Minimum Age</label>
-        21
+        <pop:minimum_age />
       </div>
 
       <div class="amount">
         <label>Donation</label>
-        $100<br />(Suggested Donation)
+        <pop:donation_amount />
       </div>
 
       <div class="action">
-        <a href="/celebrate-jesus/signup?fid=z7x3p9&vp=Bus%20Crew">Sign Up</a>
+        <a href="<pop:form_id />">Sign Up</a>
       </div>
     </div>
-
 
     <div class="centered"><img src="/images/divider_line2.png" alt="" /></div>
+    </pop:entries>
 
 
+    <h4 id="other-opp" class="half">OTHER VOLUNTEER OPPORTUNITIES:</h4>
+
+    <div class="msg1">
+      <div class="edge-top"></div>
+      <p><span class="warning">Note:</span> All of these 'Other Volunteer Opportunities' have a <b class="warning">SUGGESTED</b> donation amount. We fully understand that for some of you, the <b class="warning">SUGGESTED</b> donation amount may still be beyond your budget. If that's the case, after prayerful consideration, please give what you can.</p>
+      <div class="edge-bottom"></div>
+    </div>
+
+    <pop:entries skip="2">
     <div class="opportunity">
-      <a class="thumb" href="/celebrate-jesus/signup?fid=z7x3p9&vp=Floor%20Monitor"><img id="TableSponsor" src="http://placehold.it/150x150" alt="Table Sponsor." /></a>
+      <a class="thumb" href="<pop:form_id />">
+        <pop:image resize="limit" width="150" height="150" alt="<pop:title />" />
+        <pop:not_image>
+          <img src="http://placehold.it/150x150" />
+        </pop:not_image>
+      </a>
       <div class="short description">
-        <label><a href="/celebrate-jesus/signup?fid=z7x3p9&vp=Floor%20Monitor">Floor Monitor</a></label>
-        <p>Monitor all floor activity, deliver food to rooms, and assist homeless guests during their stay at [<em>the hotel</em>].</p>
+        <label><a href="<pop:form_id />"><pop:title /></a></label>
+        <p><pop:description /></p>
       </div>
 
       <div class="slot-count">
         <label>Slots</label>
-        150
+        <pop:slots />
       </div>
 
       <div class="slot-times">
         <label>Date &amp; Time Slots</label>
-        Dec. 24th-25th
-        <ul>
-          <li>8am - 12pm</li>
-          <li>8am - 12pm</li>
-          <li>8am - 12pm</li>
-          <li>8am - 12pm</li>
-          <li>8am - 12pm</li>
-        </ul>
+        <pop:date_time_slots />
       </div>
 
       <div class="min-age">
         <label>Minimum Age</label>
-        21
+        <pop:minimum_age />
       </div>
 
       <div class="amount">
         <label>Donation</label>
-        $100<br />(Suggested Donation)
+        <pop:donation_amount />
       </div>
 
       <div class="action">
-        <a href="/celebrate-jesus/signup?fid=z7x3p9&vp=Floor%20Monitor">Sign Up</a>
+        <a href="<pop:form_id />">Sign Up</a>
       </div>
     </div>
+
+    <div class="centered"><img src="/images/divider_line2.png" alt="" /></div>
+    </pop:entries>
 
   </div>
 
