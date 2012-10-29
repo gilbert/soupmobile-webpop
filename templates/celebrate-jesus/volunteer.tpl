@@ -23,16 +23,24 @@
 
     <h4 class="half">FEATURED SPONSORSHIP OPPORTUNITY:</h4>
 
+    <pop:entries limit="1">
     <div class="opportunity">
-      <a class="thumb" href="tablesponsor.html"><img id="TableSponsor" src="http://placehold.it/150x150" alt="Table Sponsor." /></a>
+      <a class="thumb" href="/celebrate-jesus/table-sponsor">
+        <pop:image resize="limit" width="150" height="150" alt="<pop:title />" />
+        <pop:not_image>
+          <img src="http://placehold.it/150x150" />
+        </pop:not_image>
+      </a>
       <div class="description">
-        <label>Table Sponsor</label>
-        <p>Jesus said 'Feed MY Sheep'. Please give prayerful consideration to helping the SoupMan as he reaches out to serve the ones Jesus called the 'least of these.'</p>
+        <label><a href="/celebrate-jesus/table-sponsor"><pop:title /></a></label>
+        <p><pop:description /></p>
       </div>
+
       <div class="action">
-        <a href="#">Sign Up</a>
+        <a href="/celebrate-jesus/table-sponsor">Click Here for More Details</a>
       </div>
     </div>
+    </pop:entries>
 
 
     <div class="centered"><img src="/images/divider_line3.png" alt="" /></div>
@@ -41,9 +49,11 @@
     <h4 class="half">FEATURED GIVING OPPORTUNITY:</h4>
 
     <div class="opportunity">
-      <a class="thumb" href="/celebrate-jesus/wishlist"><img id="TableSponsor" src="http://placehold.it/150x150" /></a>
+      <a class="thumb" href="/celebrate-jesus/wishlist"><img style="width:150px" src="/images/christmaswishlist.gif" /></a>
       <div class="description">
-        <label>SoupMan's Christmas Wishlist</label>
+        <label>
+          <a href="/celebrate-jesus/wishlist">SoupMan's Christmas Wishlist</a>
+        </label>
         <p>The SoupMan wants nothing for himself this Christmas, however, he prays you will help him get gifts for 500 of his closest personal homeless friends.</p>
       </div>
       <div class="action">
@@ -65,16 +75,16 @@
       <div class="edge-bottom"></div>
     </div>
 
-    <pop:entries limit="2">
+    <pop:entries skip="1" limit="2">
     <div class="opportunity">
-      <a class="thumb" href="<pop:form_id />">
+      <a class="thumb" href="<pop:permalink />">
         <pop:image resize="limit" width="150" height="150" alt="<pop:title />" />
         <pop:not_image>
           <img src="http://placehold.it/150x150" />
         </pop:not_image>
       </a>
       <div class="short description">
-        <label><a href="<pop:form_id />"><pop:title /></a></label>
+        <label><a href="<pop:permalink />"><pop:title /></a></label>
         <p><pop:description /></p>
       </div>
 
@@ -99,7 +109,7 @@
       </div>
 
       <div class="action">
-        <a href="<pop:form_id />">Sign Up</a>
+        <a href="<pop:permalink />">Sign Up</a>
       </div>
     </div>
 
@@ -115,16 +125,16 @@
       <div class="edge-bottom"></div>
     </div>
 
-    <pop:entries skip="2">
+    <pop:entries skip="3">
     <div class="opportunity">
-      <a class="thumb" href="<pop:form_id />">
+      <a class="thumb" href="<pop:permalink />">
         <pop:image resize="limit" width="150" height="150" alt="<pop:title />" />
         <pop:not_image>
           <img src="http://placehold.it/150x150" />
         </pop:not_image>
       </a>
       <div class="short description">
-        <label><a href="<pop:form_id />"><pop:title /></a></label>
+        <label><a href="<pop:permalink />"><pop:title /></a></label>
         <p><pop:description /></p>
       </div>
 
@@ -149,7 +159,7 @@
       </div>
 
       <div class="action">
-        <a href="<pop:form_id />">Sign Up</a>
+        <a href="<pop:permalink />">Sign Up</a>
       </div>
     </div>
 

@@ -2,9 +2,33 @@
 
   <!--Meta Tags-->
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <!-- Facebook -->
+  <pop:content>
+    <meta property="og:url" content="<pop:url />"/>
+    <meta property="og:title" content="<pop:title/> | SoupMobile"/>
+
+    <pop:description>
+      <meta property="og:description" content="<pop:description/>"/>
+    </pop:description>
+
+    <pop:not_description>
+      <pop:content from="/">
+        <meta property="og:description" content="<pop:description/>"/>
+      </pop:content>
+    </pop:not_description>
+  </pop:content>
+
+  <meta property="og:image" content="http://www.soupmobile.org/images/fb/van.png"/>
+  <meta property="og:image" content="http://www.soupmobile.org/images/fb/text.png"/>
+  <meta property="og:image" content="http://www.soupmobile.org/images/fb/souper-100.jpeg"/>
+  <meta property="og:image" content="http://www.soupmobile.org/images/fb/book1.jpeg"/>
+  <meta property="og:image" content="http://www.soupmobile.org/images/fb/book2.jpeg"/>
 
   <!--Title-->
-  <title><pop:content.title/> | SoupMobile</title>
+  <pop:seo>
+    <title><pop:content.title/> | SoupMobile</title>
+    <meta property="description" content="<pop:description/>"/>
+  </pop:seo>
 
   <!--Stylesheets-->
   <link rel="stylesheet" href="/css/superfish.css" type="text/css"  media="all"  />

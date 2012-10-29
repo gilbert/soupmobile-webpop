@@ -1603,6 +1603,7 @@ ul.sidebar-list li.active {
 
 #footer-wrapper #footer {
   padding: 40px 0 0 0;
+  color: white;
 }
 
 #footer-wrapper #footer .bottom {
@@ -1632,6 +1633,23 @@ ul.sidebar-list li.active {
 
 #footer-wrapper a:hover, #content a:hover, #header .top-menu li a:hover {
   text-decoration: underline;
+}
+
+#footer .loc {
+  padding: 0 10%;
+}
+#footer .loc img:first-child {
+  float: left;
+  margin-right: 20px;
+  padding: 14px 0 50px;
+}
+#footer .loc .ctag {
+  background: #B8D8F9;
+  color: #111;
+  float: right;
+  font-weight: bold;
+  margin-top: 40px;
+  padding: 5px 10px;
 }
 
 /* 15.1 - Footer Sponsors */
@@ -1728,6 +1746,7 @@ ul.sidebar-list li.active {
   margin: 0 auto 40px auto;
   border-top: 4px solid #187EEA;
 }
+.red { color: #c00; }
 
 /* Custom stuff */
 #email_subscribe {
@@ -1881,12 +1900,12 @@ table.wishlist-entry td.body { padding-top: 30px; }
   padding: 0 20px;
   width: 520px;
 }
-.opportunity .short.description {
-  width: 175px;
-}
-.opportunity .short.description label {
+.opportunity .description label {
   font-size: 1.8em;
   margin-bottom: 10px;
+}
+.opportunity .short.description {
+  width: 175px;
 }
 .opportunity .slot-times {
   padding: 0 20px;
@@ -1947,3 +1966,10 @@ table.wishlist-entry td.body { padding-top: 30px; }
   background: #333;
   padding: 20px;
 }
+
+#cj-wish .body p { font-size: 16px; }
+#cj-wish .body p img { margin: 10px; }
+
+#cj-wish #soupman-wishlist h3 { color: #c00; }
+#cj-wish #soupman-wishlist td.img { width: 280px; }
+#cj-wish #soupman-wishlist td.body { text-align: left; }

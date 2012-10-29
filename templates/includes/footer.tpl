@@ -9,20 +9,17 @@
     <div class="clearfix">
     </div>
 
-    <div class="widget bottom">
-      <div class="widget-title">
-        <h4>Sponsors</h4>
+    <div class="loc">
+      <img src="/images/fb/van.png" />
+      <div class="ctag">
+        a 501(c)(3) charity organization
       </div>
-      <div class="widget-content">
-
-        <ul id="mycarousel" class="jcarousel-skin-tango">
-          <pop:entries from="our-partners">
-            <li>
-              <a href="<pop:website />" target="_blank"><pop:logo resize="fill" width="160" height="80" /></a>
-            </li>
-          </pop:entries>
-        </ul>
-
+      <div class="info">
+        SoupMobile, Inc.<br />
+        3017 Commerce Street<br />
+        Dallas, TX 75226<br />
+        1-800-375-5022<br />
+        david@soupmobile.org
       </div>
     </div>
 
