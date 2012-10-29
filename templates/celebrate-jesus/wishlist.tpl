@@ -1,4 +1,4 @@
-<pop:layout name="main"/>
+<pop:layout name="default"/>
 <pop:include template="includes/hide-banner" />
 
 
@@ -12,7 +12,7 @@
     <h2><pop:content.title /></h2>
   </div>
 
-  <pop:content.intro />
+  <pop:content.body />
 
   <ul id="soupman-wishlist">
     <pop:entries>
