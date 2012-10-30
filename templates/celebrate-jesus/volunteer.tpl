@@ -7,10 +7,8 @@
 
     <div class="centered">
       <pop:content>
-        <img src="<pop:banner.src />" class="sidebar-banner" />
+        <img src="<pop:banner.src />" class="cj-banner" />
       </pop:content>
-
-      <h2><pop:content.title /></h2>
 
       <iframe id="cjv-video" width="640" height="480" src="http://www.youtube.com/embed/TCEtYDNnato?rel=0" frameborder="0" allowfullscreen></iframe>
 

@@ -6,7 +6,7 @@
   <div class="section">
     <div class="centered">
       <pop:content>
-        <img src="<pop:banner.src />" class="sidebar-banner" />
+        <img src="<pop:banner.src />" class="cj-banner" />
         <img src="<pop:second_banner.src />" />
       </pop:content>
     </div>

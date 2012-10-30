@@ -7,7 +7,7 @@
 
     <div class="centered">
       <pop:content>
-        <img src="<pop:banner.src />" class="sidebar-banner" />
+        <img src="<pop:banner.src />" class="cj-banner" />
       </pop:content>
     </div>
 

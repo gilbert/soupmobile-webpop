@@ -1971,5 +1971,6 @@ table.wishlist-entry td.body { padding-top: 30px; }
 #cj-wish .body p img { margin: 10px; }
 
 #cj-wish #soupman-wishlist h3 { color: #c00; }
+#cj-wish #soupman-wishlist table { table-layout: fixed; }
 #cj-wish #soupman-wishlist td.img { width: 280px; }
 #cj-wish #soupman-wishlist td.body { text-align: left; }
