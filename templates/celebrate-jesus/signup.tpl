@@ -6,7 +6,7 @@
   <div class="section">
     <div class="centered">
       <pop:content from="celebrate-jesus">
-        <a href="/celebrate-jesus">
+        <a href="/celebrate-jesus/volunteer">
           <img src="<pop:banner.src from='/celebrate-jesus' />" class="cj-banner" />
         </a>
       </pop:content>
@@ -87,6 +87,8 @@
       })(document, 'script');</script>
 
     </div>
+
+    <div class="centered"><img src="/images/divider_line2.png" alt="" style="margin-bottom: 24px" /></div>
 
     <a href="/celebrate-jesus/volunteer" class="major-btn first">
       <img class="up" src="/images/ui/volunteer_up.png" />

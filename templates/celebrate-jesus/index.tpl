@@ -6,9 +6,7 @@
   <div class="section">
     <div class="centered">
       <pop:content>
-        <a href="/celebrate-jesus">
-          <img src="<pop:banner.src />" class="cj-banner" />
-        </a>
+        <img src="<pop:banner.src />" class="cj-banner" />
         <img src="<pop:second_banner.src />" />
       </pop:content>
     </div>
