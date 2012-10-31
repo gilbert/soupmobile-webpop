@@ -8,7 +8,9 @@
 
     <div class="centered">
       <pop:content>
-        <img src="<pop:banner.src />" class="cj-banner" />
+        <a href="/celebrate-jesus">
+          <img src="<pop:banner.src />" class="cj-banner" />
+        </a>
       </pop:content>
 
       <h2><pop:content.title /></h2>
@@ -22,10 +24,11 @@
       <table class="wishlist-entry" border="0" cellspacing="10">
         <tbody>
           <pop:entries>
-            <tr>
+            <tr class="<pop:granted>granted</pop:granted>">
               <td class="img" valign="top"><img src="<pop:image.src />" alt="<pop:image.alt />"></td>
               <td class="body" valign="top">
-                <h3><pop:title /></h3>
+                <h3 class="title"><pop:title /></h3>
+                <h3 class="granted hide">Granted!</h3>
                 <pop:body />
               </td>
             </tr>
@@ -35,14 +38,12 @@
     </ul>
 
     <a href="/celebrate-jesus/volunteer" class="major-btn first">
-      <p>&nbsp;</p>
-      <p>Volunteer</p>
-      <p>Click Here</p>
+      <img class="up" src="/images/ui/volunteer_up.png" />
+      <img class="down" src="/images/ui/volunteer_down.png" />
     </a>
     <a href="/celebrate-jesus/donate" class="major-btn second">
-      <p>Can't Volunteer?</p>
-      <p class="mid">You can still help!!</p>
-      <p>Click Here</p>
+      <img class="up" src="/images/ui/cant_volunteer_up.png" />
+      <img class="down" src="/images/ui/cant_volunteer_down.png" />
     </a>
 
     <div class="clearfix"></div>

@@ -7,7 +7,9 @@
 
     <div class="centered">
       <pop:content>
-        <img src="<pop:banner.src />" class="cj-banner" />
+        <a href="/celebrate-jesus">
+          <img src="<pop:banner.src />" class="cj-banner" />
+        </a>
       </pop:content>
     </div>
 

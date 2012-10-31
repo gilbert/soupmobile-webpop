@@ -6,20 +6,20 @@
   <div class="section">
     <div class="centered">
       <pop:content>
-        <img src="<pop:banner.src />" class="cj-banner" />
+        <a href="/celebrate-jesus">
+          <img src="<pop:banner.src />" class="cj-banner" />
+        </a>
         <img src="<pop:second_banner.src />" />
       </pop:content>
     </div>
 
     <a href="/celebrate-jesus/volunteer" class="major-btn first">
-      <p>&nbsp;</p>
-      <p>Volunteer</p>
-      <p>Click Here</p>
+      <img class="up" src="/images/ui/volunteer_up.png" />
+      <img class="down" src="/images/ui/volunteer_down.png" />
     </a>
     <a href="/celebrate-jesus/donate" class="major-btn second">
-      <p>Can't Volunteer?</p>
-      <p class="mid">You can still help!!</p>
-      <p>Click Here</p>
+      <img class="up" src="/images/ui/cant_volunteer_up.png" />
+      <img class="down" src="/images/ui/cant_volunteer_down.png" />
     </a>
 
     <div class="clearfix"></div>

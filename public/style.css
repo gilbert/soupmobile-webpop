@@ -1927,40 +1927,31 @@ table.wishlist-entry td.body { padding-top: 30px; }
 }
 
 .major-btn {
-  background: #b8d8f9;
-  border: 4px solid #b8d8f9;
-  color: #1E0055;
   display: inline-block;
-  float: left;
-  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
-  text-align: center;
-  text-decoration: none;
-  width: 48%; height: 240px;
+  width: 49%;
 }
-.major-btn:hover {
-  color: #b8d8f9;
-  background: #0b3b83;
-}
-.major-btn + .major-btn { margin-left: 10px; }
+.major-btn img { max-width: 100%; }
+.major-btn img.down { display: none; }
 
-.major-btn.first p { font-size: 5em; }
-.major-btn.first p:first-child { font-size: 1.5em; }
-.major-btn.first p:last-child  { font-size: 3em; position: relative; top: -1em; color: #77f; }
-
-.major-btn.second p { font-size: 3em; }
-.major-btn.second p:first-child  { position: relative; top: 0.7em; }
-.major-btn.second p.mid  { color: #77F; position: relative; top: 0.1em; }
-.major-btn.second p:last-child  { position: relative; top: -0.4em; }
+.major-btn:hover img.up { display: none; }
+.major-btn:hover img.down { display: inline-block; }
+.major-btn + .major-btn { margin-left: 1%; }
 
 #cjv h4 {
   font-size: 2em;
   line-height: 1.3;
   padding-top: 12px;
 }
-#cjv h4.half { width: 40%; float: left; color: #c00; }
+#cjv h4.main { color: #c00; text-align: center; }
 
-#cjv .msg1 { margin-bottom: 20px; float: left; width: 55%; }
-#cjv .msg1 p { font-size: 16px; }
+#cjv .msg2 {
+  background: #efefef;
+  margin: 0 auto 28px;
+  padding: 10px;
+  width: 80%;
+}
+#cjv .msg2 p { font-size: 16px; }
+#cjv .msg2 p:last-child { margin-bottom: 0; }
 
 #cjv-video {
   background: #333;
@@ -1974,3 +1965,11 @@ table.wishlist-entry td.body { padding-top: 30px; }
 #cj-wish #soupman-wishlist table { table-layout: fixed; }
 #cj-wish #soupman-wishlist td.img { width: 280px; }
 #cj-wish #soupman-wishlist td.body { text-align: left; }
+
+#cj-wish #soupman-wishlist tr.granted h3.title {
+  text-decoration: line-through;
+}
+#cj-wish #soupman-wishlist tr.granted h3.granted {
+  display: inline;
+  font-size: 2em;
+}
