@@ -1,26 +1,25 @@
 <pop:layout name="default" />
-
-<pop:block region="css">
-  <style type="text/css">
-    #page-header { display: none; }
-  </style>
-</pop:block>
+<pop:include template="includes/hide-banner" />
 
 <pop:block region="main">
 
   <div class="section">
-    <div class="msg1">
+    <div class="msg1" style="margin-bottom: 20px">
       <div class="edge-top"></div>
       <p><pop:content.promotional_text /></p>
       <div class="edge-bottom"></div>
     </div>
+
+    <a href="/celebrate-jesus">
+      <pop:content.super_banner />
+    </a>
   </div>
 
   <pop:content>
-    <!-- BEGIN #slides -->
+    <!-- BEGIN #slides --
     <div id="slides" class="slide-loader section">
 
-      <!-- BEGIN .slides_container -->
+      <!-- BEGIN .slides_container --
       <div class="slides_container">
 
         <pop:slides resize="limit" width="980" height="450">
@@ -32,14 +31,14 @@
           </div>
         </pop:slides>
 
-      <!-- END .slides_container -->
+      <!-- END .slides_container --
       </div>
 
       <a href="#" class="prev"><img src="img/arrow-prev.png" alt="Arrow Prev"></a>
       <a href="#" class="next"><img src="img/arrow-next.png" alt="Arrow Next"></a>
 
-    <!-- END #slides -->
     </div>
+    <!-- END #slides -->
   </pop:content>
 
   <!-- BEGIN #content -->

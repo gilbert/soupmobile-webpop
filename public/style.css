@@ -73,6 +73,10 @@ body {
   line-height: 1;
 }
 
+em {
+  font-style: italic;
+}
+
 ol, ul {
   list-style: none;
 }
@@ -1746,6 +1750,7 @@ ul.sidebar-list li.active {
   margin: 0 auto 40px auto;
   border-top: 4px solid #187EEA;
 }
+.bright-red { color: #f00; }
 .red { color: #c00; }
 
 /* Custom stuff */
