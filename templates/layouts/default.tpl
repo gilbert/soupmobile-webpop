@@ -20,6 +20,7 @@
   <pop:region name="js" />
   <script type='text/javascript' src='/js/scripts.js'></script>
 
+  <pop:include template="includes/google" />
   <pop:track/>
   <pop:development.log/>
 </body>
