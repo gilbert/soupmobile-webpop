@@ -10,7 +10,7 @@
     </div>
 
     <div class="loc">
-      <img src="/images/fb/van.png" />
+      <img src="/images/fb/van-logo.png" />
       <div class="ctag">
         a 501(c)(3) charity organization
       </div>

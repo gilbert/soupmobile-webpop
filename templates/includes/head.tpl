@@ -18,7 +18,7 @@
     </pop:not_description>
   </pop:content>
 
-  <meta property="og:image" content="http://www.soupmobile.org/images/fb/van.png"/>
+  <meta property="og:image" content="http://www.soupmobile.org/images/fb/van-logo.png"/>
   <meta property="og:image" content="http://www.soupmobile.org/images/fb/text.png"/>
   <meta property="og:image" content="http://www.soupmobile.org/images/fb/souper-100.jpeg"/>
   <meta property="og:image" content="http://www.soupmobile.org/images/fb/book1.jpeg"/>

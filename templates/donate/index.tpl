@@ -6,6 +6,7 @@
   </style>
 </pop:block>
 
+
 <pop:block region="main">
   <div class="section centered">
 
@@ -138,16 +139,17 @@
       <br>
 
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="paypal">
-      <input type="hidden" name="cmd" value="_donations">
-      <input type="hidden" name="business" value="mobi@soupmobile.org">
-      <input type="hidden" name="lc" value="US">
-      <input type="hidden" name="item_name" value="SoupMobile Inc. <pop:form:deliver.type.paypal /><pop:form:deliver.comment>, <pop:value></pop:form:deliver.comment>">
-      <input type="hidden" name="item_number" value="mobi@soupmobile.org">
-      <input type="hidden" name="amount" value="<pop:form:deliver.amount />">
-      <input type="hidden" name="currency_code" value="USD">
-      <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
-      <input type="image" src="/images/donate.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-      <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        <input type="hidden" name="return" value="http://example.com/donate" />
+        <input type="hidden" name="cmd" value="_donations">
+        <input type="hidden" name="business" value="mobi@soupmobile.org">
+        <input type="hidden" name="lc" value="US">
+        <input type="hidden" name="item_name" value="SoupMobile Inc. <pop:form:deliver.type.paypal /><pop:form:deliver.comment>, <pop:value></pop:form:deliver.comment>">
+        <input type="hidden" name="item_number" value="mobi@soupmobile.org">
+        <input type="hidden" name="amount" value="<pop:form:deliver.amount />">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+        <input type="image" src="/images/donate.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
       </form><br />
       <br />
 

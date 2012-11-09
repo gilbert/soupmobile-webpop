@@ -10,7 +10,7 @@
 
   <div id="logos-page">
     <pop:entries>
-      <a href="<pop:website />"><img src="<pop:logo.src />" alt="<pop:title />"></a>
+      <a href="<pop:website />" target="_blank"><img src="<pop:logo.src />" alt="<pop:title />"></a>
     </pop:entries>
   </div>
 

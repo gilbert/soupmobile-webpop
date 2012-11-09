@@ -1,6 +1,29 @@
 <pop:layout name="default" />
 <pop:include template="includes/hide-banner" />
 
+
+<pop:block region="js">
+<script type="text/javascript">
+window.showVideo = function (e) {
+  e.preventDefault();
+  Lightview.show({
+    url: 'http://www.youtube.com/embed/8whbrJqt1qA',
+    type: 'iframe',
+    title: 'Celebrate Jesus Video (2011)',
+    options: {
+      width: 640,
+      height: 360,
+      viewport: 'scale',
+      params: {
+        controller: false
+      }
+    }
+  });
+}
+</script>
+</pop:block>
+
+
 <pop:block region="main">
 
   <div class="section">
@@ -10,9 +33,12 @@
       <div class="edge-bottom"></div>
     </div>
 
-    <a href="/celebrate-jesus">
-      <pop:content.super_banner />
-    </a>
+    <img src="<pop:content.super_banner.src />" usemap="#banner-map">
+
+    <map name="banner-map">
+      <area shape="rect" coords="482,485,662,580" href="#" onclick="showVideo(event)">
+      <area shape="rect" coords="0,0,900,600" href="/celebrate-jesus">
+    </map>
   </div>
 
   <pop:content>
@@ -50,9 +76,9 @@
         <div class="edge-top"></div>
         <form action="http://visitor.r20.constantcontact.com/d.jsp" method="post">
           <span>
-            <img src="http://soupmobile.org/images/buttons_icons/email-newsletter-text.png" style="margin-right: 10px;">
+            <img src="http://soupmobile.org/images/email-newsletter-text.png" style="margin-right: 10px;">
             <input name="ea" size="27" value="Enter Your Email Address" onfocus="if(this.value == 'Enter Your Email Address') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter Your Email Address';}" type="text">
-            <input style="margin-left: 10px;" src="http://soupmobile.org/images/buttons_icons/email-subscribe-button.png" value="Submit" type="image">
+            <input style="margin-left: 10px;" src="http://soupmobile.org/images/email-subscribe-button.png" value="Submit" type="image">
           </span>
           <input name="llr" value="5dl5mvcab" type="hidden">
           <input name="m" value="1102377331838" type="hidden">

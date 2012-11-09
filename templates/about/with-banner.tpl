@@ -8,7 +8,9 @@
   </pop:content>
 
   <h2><pop:content.title /></h2>
-  <pop:content.body />
+  <div class="body">
+    <pop:content.body />
+  </div>
   <pop:content.rich_text_area />
 
 </pop:block>
