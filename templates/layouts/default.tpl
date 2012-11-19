@@ -7,7 +7,7 @@
 <pop:include template="includes/head" />
 
 <!-- BEGIN body -->
-<body>
+<body class="no-touch">
 
   <pop:include template="includes/header" />
 

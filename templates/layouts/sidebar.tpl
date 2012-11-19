@@ -7,7 +7,7 @@
 <pop:include template="includes/head" />
 
 <!-- BEGIN body -->
-<body>
+<body class="no-touch">
 
   <pop:include template="includes/header" />
 
@@ -41,7 +41,14 @@
             </ul>
           </div>
 
-          <pop:sections from="/" except="home,about-us,lons-limelights,search,major-events,celebrate-jesus">
+          <a href="/celebrate-jesus">
+            <span class="widget-title">
+              <h4>Volunteer</h4>
+            </span>
+          </a>
+          <div class="widget-content"></div>
+
+          <pop:sections from="/" except="home,about-us,lons-limelights,search,major-events,celebrate-jesus,volunteer">
             <a href="<pop:permalink />">
               <span class="widget-title">
                 <h4><pop:title /></h4>

@@ -53,7 +53,21 @@
   <div id="main-menu-wrapper" class="clearfix">
 
     <ul id="main-menu" class="fl">
-      <pop:sections except="search,donate,celebrate-jesus" from="/">
+      <li class="<pop:active>current_page_item</pop:active>">
+        <a href="/about-us">About Us</a>
+        <pop:sections wrap="ul" from="about-us">
+          <li>
+            <a href="<pop:permalink/>"><pop:title/></a>
+            <pop:sections wrap="ul" except="pennies-from-heaven">
+            <li><a href="<pop:permalink/>"><pop:title/></a></li>
+            </pop:sections>
+          </li>
+        </pop:sections>
+      </li>
+      <li class="<pop:active>current_page_item</pop:active>">
+        <a href="/celebrate-jesus">Volunteer</a>
+      </li>
+      <pop:sections except="about-us,search,donate,celebrate-jesus,volunteer" from="/">
         <li class="<pop:active>current_page_item</pop:active>">
           <a href="<pop:permalink/>"><pop:title/></a>
           <pop:show_subs>
