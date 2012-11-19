@@ -1,4 +1,7 @@
 (function($){
+	/* Skip if touch device */
+	if ( !!('ontouchstart' in window) ) return;
+
 	/* hoverIntent by Brian Cherne */
 	$.fn.hoverIntent = function(f,g) {
 		// default configuration options
