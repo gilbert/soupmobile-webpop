@@ -1988,3 +1988,19 @@ body.no-touch .major-btn:hover img.down { display: inline-block; }
   display: inline;
   font-size: 2em;
 }
+
+#qrxl {
+  height: 671px;
+  position: relative;
+  text-align: center;
+}
+#qrxl img {
+  margin: 0 !important;
+  padding: 0;
+  position: absolute; top: 0; left: 0;
+}
+#qrxl iframe {
+  margin-top: 195px;
+  position: relative;
+  z-index: 10;
+}
