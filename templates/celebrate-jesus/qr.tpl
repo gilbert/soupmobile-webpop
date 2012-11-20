@@ -7,6 +7,7 @@
   <style type="text/css">
     #main-menu-wrapper { display: none; }
     #header-inner { height: 158px; }
+    #header { margin-bottom: 0; }
   </style>
 
   <div class="section">
