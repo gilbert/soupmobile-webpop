@@ -5,6 +5,16 @@
  if ('ontouchstart' in document) {
   $(body).removeClass('no-touch');
  }
+$(document).ready(function () {
+  if (
+    ('ontouchstart' in document) ||
+    (navigator.userAgent.match(/iPhone/i)) ||
+    (navigator.userAgent.match(/iPod/i)) ||
+    (navigator.userAgent.match(/iPad/i))
+  ){
+    $("body").removeClass("no-touch");
+  };
+});
 </script>
 
 <!--[if lt IE 9]>
