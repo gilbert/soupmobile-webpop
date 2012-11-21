@@ -136,7 +136,7 @@ the 'least of these.'</p>
       <p>Christmas is the season of giving. The homeless need your help. If you are able, we humbly ask you to give the 'SUGGESTED DONATION' amount. If that 'Suggested' amount is still beyond your budget then
 please give prayerful consideration to giving what you can.</p>
 
-      <p><em>p.s.</em> The SoupMan says the Banquet Red Carpet (and included Stage Show) is his absolute favorite volunteer opportunity. He looks forward to seeing you at Christmas.</p>
+      <p><em>p.s.</em> The SoupMan says the Banquet Red Carpet & stage show with the Dallas Symphony Orchestra Brass Quintet is his absolute favorite volunteer opportunity. He looks forward to seeing you at Christmas.</p>
     </div>
 
     <pop:entries skip="2">
