@@ -1906,6 +1906,7 @@ table.wishlist-entry td.body { padding-top: 30px; }
   clear: both;
 }
 .opportunity > * { float: left; }
+.opportunity .filled { display: none; }
 
 .opportunity a.thumb {
   float: left;
@@ -1940,6 +1941,19 @@ table.wishlist-entry td.body { padding-top: 30px; }
 .opportunity .action {
   width: 150px;
   float: left;
+}
+
+.opportunity.filled .filled { display: block; }
+.opportunity.filled .action a {
+  display: none;
+}
+
+.filled-label {
+  color: #c00;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.7em;
+  font-weight: 700;
+  text-align: center;
 }
 
 .major-btn {

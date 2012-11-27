@@ -140,15 +140,34 @@ please give prayerful consideration to giving what you can.</p>
     </div>
 
     <pop:entries skip="2">
-    <div class="opportunity">
+
+    <pop:filled>
+    <h3 class="filled-label"><pop:title /> -- SLOTS FILLED -- NO OPENINGS</h3>
+    </pop:filled>
+    <div class="opportunity <pop:filled>filled</pop:filled>">
+      <pop:not_filled>
       <a class="thumb" href="<pop:permalink />">
         <pop:image resize="limit" width="150" height="150" alt="<pop:title />" />
         <pop:not_image>
           <img src="http://placehold.it/150x150" />
         </pop:not_image>
       </a>
+      </pop:not_filled>
+
+      <pop:filled>
+        <pop:image resize="limit" width="150" height="150" alt="<pop:title />" />
+        <pop:not_image>
+          <img src="http://placehold.it/150x150" />
+        </pop:not_image>
+      </pop:filled>
+
       <div class="short description">
-        <label><a href="<pop:permalink />"><pop:title /></a></label>
+        <pop:not_filled>
+          <label><a href="<pop:permalink />"><pop:title /></a></label>
+        </pop:not_filled>
+        <pop:filled>
+          <label><pop:title /></label>
+        </pop:filled>
         <p><pop:description /></p>
       </div>
 
@@ -174,6 +193,7 @@ please give prayerful consideration to giving what you can.</p>
 
       <div class="action">
         <a href="<pop:permalink />">Sign Up</a>
+        <span class="filled">All Slots Filled!</span>
       </div>
     </div>
 
