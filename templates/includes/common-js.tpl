@@ -25,7 +25,7 @@ $(document).ready(function () {
 
 <script type='text/javascript' src='/js/jquery.prettyPhoto.js'></script>
 <script type="text/javascript" src="/js/superfish.js"></script>
-<script type="text/javascript" src="/js/hoverIntent.js"></script>
+<!-- <script type="text/javascript" src="/js/hoverIntent.js"></script> -->
 <script type="text/javascript" src="/js/slides.min.jquery.js"></script>
 <script type="text/javascript" src="/js/jquery.jcarousel.min.js"></script>
 
