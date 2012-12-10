@@ -3,7 +3,7 @@
 
 <script type="text/javascript">
  if ('ontouchstart' in document) {
-  $(body).removeClass('no-touch');
+  $('body').removeClass('no-touch');
  }
 $(document).ready(function () {
   if (
