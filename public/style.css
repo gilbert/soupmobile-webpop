@@ -1959,13 +1959,13 @@ table.wishlist-entry td.body { padding-top: 30px; }
 
 .major-btn {
   display: inline-block;
-  width: 49%;
+  width: 49%; height: 183px;
 }
 .major-btn img { max-width: 100%; }
 .major-btn img.down { display: none; }
 
-body.no-touch .major-btn:hover img.up { display: none; }
-body.no-touch .major-btn:hover img.down { display: inline-block; }
+/*body.no-touch .major-btn:hover img.up { display: none; }*/
+/*body.no-touch .major-btn:hover img.down { display: inline-block; }*/
 .major-btn + .major-btn { margin-left: 1%; }
 
 #cjv h4 {
