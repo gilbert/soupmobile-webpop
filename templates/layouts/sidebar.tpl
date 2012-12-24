@@ -41,7 +41,7 @@
             </ul>
           </div>
 
-          <a href="/celebrate-jesus">
+          <a href="/volunteer">
             <span class="widget-title">
               <h4>Volunteer</h4>
             </span>

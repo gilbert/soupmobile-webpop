@@ -65,7 +65,7 @@
         </pop:sections>
       </li>
       <li class="<pop:active>current_page_item</pop:active>">
-        <a href="/celebrate-jesus/volunteer">Volunteer</a>
+        <a href="/volunteer">Volunteer</a>
       </li>
       <pop:sections except="about-us,search,donate,celebrate-jesus,volunteer" from="/">
         <li class="<pop:active>current_page_item</pop:active>">
