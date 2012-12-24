@@ -1762,6 +1762,7 @@ body .with-caption img { padding-bottom: 0;}
 .with-caption p { padding: 0 15px; font-style: italic; }
 .caption { font-size: 12px; font-style: italic; text-align: center; }
 .clickable { cursor: pointer; }
+.strike-through { text-decoration: line-through; }
 
 /* Custom stuff */
 #email_subscribe {
