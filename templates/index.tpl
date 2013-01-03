@@ -36,7 +36,8 @@ window.showVideo = function (e) {
     <img src="<pop:content.super_banner.src />" usemap="#banner-map">
 
     <map name="banner-map">
-      <area shape="rect" coords="428,418,555,477" href="/celebrate-jesus/donate">
+      <area shape="rect" coords="292,418,419,477" href="/donate">
+      <area shape="rect" coords="484,403,784,499" href="https://www.facebook.com/media/set/?set=a.10151323849034324.505927.72409949323&type=1">
     </map>
   </div>
 
