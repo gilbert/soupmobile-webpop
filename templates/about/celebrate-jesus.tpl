@@ -16,8 +16,7 @@
         <pop:content.video_preview_image width="420" resize="limit" />
       </a>
     </pop:content>
-    <p>Dallas mayor, volunteers help the homeless for Christmas<br />
-(Dallas Morning News December 24, 2011)</p>
+    <p><pop:content.video_caption /></p>
   </div>
 
   <pop:content.body />
