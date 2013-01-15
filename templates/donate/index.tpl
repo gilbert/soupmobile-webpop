@@ -80,7 +80,7 @@
                   <div class="field"><input id="amount_5" class="mainForm" name="amount" type="radio" value="1000"><label class="formFieldOption" for="field_1_option_5">$1,000 Provides money to fund one Village home for a month</label></div>
                   <div class="field"><input id="amount_4" class="mainForm" name="amount" type="radio" value="250"><label class="formFieldOption" for="field_1_option_4">$250 Provides roof over one homeless resident for a month</label></div>
                   <div class="field"><input id="amount_3" class="mainForm" name="amount" type="radio" value="100"><label class="formFieldOption" for="field_1_option_3">$100 Provides food for one homeless resident for a month</label></div>
-                  <div class="field"><input id="amount_2" class="mainForm" name="amount" type="radio" value="65"><label class="formFieldOption" for="field_1_option_2">$65 Provides one monthly bus pass for a homeless resident</label></div>
+                  <div class="field"><input id="amount_2" class="mainForm" name="amount" type="radio" value="65"><label class="formFieldOption" for="field_1_option_2">$80 Provides one monthly bus pass for a homeless resident</label></div>
                   <div class="field"><input id="3" class="mainForm" name="amount" type="radio" value="other"><label class="formFieldOption" for="field_1_option_4">Other:  $ <input id="field_4" class="mainForm" name="otheramount" size="10" type="text"></label></div>
                 </div>
                 <input type="hidden" name="type" value="SOUPMOBILE_VILLAGE" />
