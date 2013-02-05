@@ -1,4 +1,4 @@
-<pop:layout name="default"/>
+<pop:layout name="sidebar"/>
 <pop:include template="includes/hide-banner" />
 
 
