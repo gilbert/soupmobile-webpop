@@ -11,7 +11,9 @@
 
   <pop:include template="includes/header" />
 
-  <pop:region name="main" />
+  <div id="content">
+    <pop:region name="main" />
+  </div>
 
   <pop:include template="includes/footer" />
 
