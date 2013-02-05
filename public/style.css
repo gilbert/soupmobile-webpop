@@ -2081,3 +2081,7 @@ table.wishlist-entry td.body { padding-top: 30px; }
   width: 100%;
   height: 1000px;
 }
+#content-inner-wrap {
+  width: 700px;
+  margin: 0 auto;
+}

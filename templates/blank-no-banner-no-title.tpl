@@ -4,6 +4,8 @@
 
 <pop:block region="main">
 
-  <pop:content.body />
+  <div id="content-inner-wrap">
+    <pop:content.body />
+  </div>
 
 </pop:block>
