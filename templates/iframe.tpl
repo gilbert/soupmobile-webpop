@@ -5,13 +5,14 @@
 <pop:block region="main">
 
   <div id="content-inner-wrap">
-    <pop:content.body />
+    <div id="iframe"></div>
   </div>
 
 </pop:block>
 
 
 <pop:block region="js">
+<script type="text/javascript" src="/js/jquery.ba-postmessage.min.js"></script>
 <script type="text/javascript">
   //This is almost like request.querystring used to get the iframe data
   function querySt(param, e) {
@@ -30,7 +31,7 @@
     var if_width;
     // Pass the parent page URL into the Iframe in a meaningful way (this URL could be
     // passed via query string or hard coded into the child page, it depends on your needs).
-    src = 'http://www.OTHERDOAMIN.co.uk/OTHERSTARTPAGE.htm' + '#' + encodeURIComponent(document.locaion.href),
+    src = 'https://souphockey.herokuapp.com/' + '#' + encodeURIComponent(document.location.href),
     // Append the Iframe into the DOM.
     iframe = $('<iframe " src="' + src + '" width="100%" height="100%" scrolling="no" frameborder="0"><\/iframe>').appendTo('#iframe');
 
@@ -52,10 +53,10 @@
         iframe.width(if_width = w);
       }
       //For debugging only really- can remove the next line if you want
-      $('body').prepend("Recieved" + h + "hX" + w + "w .. ");
+      // $('body').prepend("Recieved" + h + "hX" + w + "w .. ");
       // An optional origin URL (Ignored where window.postMessage is unsupported).
       // Here you must put the other domain.com name only! This is like an authentication to prevent spoofing and xss attacks!
-    }, 'http://www.OTHERDOMAIN.co.uk');
+    }, 'https://souphockey.herokuapp.com');
   });
 </script>
 </pop:block>
