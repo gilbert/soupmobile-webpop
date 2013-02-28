@@ -67,7 +67,7 @@
       <li class="<pop:active>current_page_item</pop:active>">
         <a href="/volunteer">Volunteer</a>
       </li>
-      <pop:sections except="about-us,search,donate,celebrate-jesus,volunteer" from="/">
+      <pop:sections except="about-us,search,donate,celebrate-jesus,volunteer,major-events" from="/">
         <li class="<pop:active>current_page_item</pop:active>">
           <a href="<pop:permalink/>"><pop:title/></a>
           <pop:show_subs>
@@ -82,6 +82,9 @@
           </pop:show_subs>
         </li>
       </pop:sections>
+      <li class="<pop:active>current_page_item</pop:active>">
+        <a href="/about-us/soupmans-wishlist">Soupman's Wishlist</a>
+      </li>
     </ul>
   </div>
 
