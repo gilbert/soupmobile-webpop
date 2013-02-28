@@ -5,7 +5,9 @@
 <pop:block region="main">
 
   <div id="content-inner-wrap">
-    <div id="iframe"></div>
+    <div id="iframe">
+      <h3>Loading...</h3>
+    </div>
   </div>
 
 </pop:block>
@@ -25,15 +27,22 @@
     }
   }
 
-  $(function () {
+  $(document).ready(function () {
     // Keep track of the iframe dimensions.
     var if_height;
     var if_width;
     // Pass the parent page URL into the Iframe in a meaningful way (this URL could be
     // passed via query string or hard coded into the child page, it depends on your needs).
-    src = 'https://souphockey.herokuapp.com/' + '#' + encodeURIComponent(document.location.href),
+    host = 'https://souphockey.herokuapp.com'
+    // host = 'http://local.host:3001'
+    var a = document.location;
+    var b = document.location.href;
+    encodeURIComponent(b);
+    src = host + '/#' + encodeURIComponent(document.location.href);
     // Append the Iframe into the DOM.
-    iframe = $('<iframe " src="' + src + '" width="100%" height="100%" scrolling="no" frameborder="0"><\/iframe>').appendTo('#iframe');
+    var iframeElem = $('<iframe " src="' + src + '" width="100%" height="100%" scrolling="no" frameborder="0"><\/iframe>');
+    var iframeWrapper = $('#iframe');
+    iframeWrapper.empty().append(iframeElem);
 
     // Setup a callback to handle the dispatched MessageEvent event. In cases where
     // window.postMessage is supported, the passed event will have .data, .origin and
@@ -42,21 +51,22 @@
       // Get the height from the passsed data.
       //var h = Number(e.data.replace(/.*if_height=(\d+)(?:&|$)/, '$1'));
       var h = querySt("if_height", e.data);
-      var w = querySt("if_width", e.data);
+      var shouldScroll = querySt("scroll", e.data);
 
       if (!isNaN(h) && h > 0 && h !== if_height) {
         // Height has changed, update the iframe.
-        iframe.height(if_height = h);
+        iframeElem.height(if_height = h);
+        iframeWrapper.height(if_height);
       }
-      if (!isNaN(w) && w > 0 && w !== if_width) {
-        // Height has changed, update the iframe.
-        iframe.width(if_width = w);
+
+      if (shouldScroll == 'true') {
+        $(window).scrollTop(255);
       }
       //For debugging only really- can remove the next line if you want
       // $('body').prepend("Recieved" + h + "hX" + w + "w .. ");
       // An optional origin URL (Ignored where window.postMessage is unsupported).
       // Here you must put the other domain.com name only! This is like an authentication to prevent spoofing and xss attacks!
-    }, 'https://souphockey.herokuapp.com');
+    }, host);
   });
 </script>
 </pop:block>

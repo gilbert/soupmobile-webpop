@@ -5,6 +5,7 @@
 <pop:block region="main">
 
   <div id="flyer">
+    <iframe class="countdown" src="http://souphockey.herokuapp.com/countdown" marginheight="0" marginwidth="0" frameborder="0" allowTransparency="true"></iframe>
     <pop:content.body />
   </div>
 
