@@ -18,11 +18,10 @@
     </pop:not_description>
   </pop:content>
 
+  <pop:content.facebook_gallery from="/">
+    <meta property="og:image" content="<pop:src />"/>
+  </pop:content.facebook_gallery>
   <meta property="og:image" content="http://www.soupmobile.org/images/fb/van-logo.png"/>
-  <meta property="og:image" content="http://www.soupmobile.org/images/fb/text.png"/>
-  <meta property="og:image" content="http://www.soupmobile.org/images/fb/souper-100.jpeg"/>
-  <meta property="og:image" content="http://www.soupmobile.org/images/fb/book1.jpeg"/>
-  <meta property="og:image" content="http://www.soupmobile.org/images/fb/book2.jpeg"/>
 
   <!--Title-->
   <pop:seo>
