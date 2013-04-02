@@ -48,6 +48,10 @@
       </div>
     </div>
 
+    <a href="/volunteer" class="volunteer-btn">
+      Click Here to Volunteer
+    </a>
+
   </div>
 
   <div id="main-menu-wrapper" class="clearfix">
@@ -63,9 +67,6 @@
             </pop:sections>
           </li>
         </pop:sections>
-      </li>
-      <li class="<pop:active>current_page_item</pop:active>">
-        <a href="/volunteer">Volunteer</a>
       </li>
       <pop:sections except="about-us,search,donate,celebrate-jesus,volunteer,major-events" from="/">
         <li class="<pop:active>current_page_item</pop:active>">
