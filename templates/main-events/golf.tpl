@@ -3,8 +3,6 @@
 
 
 <pop:block region="main">
-  <h1 class="centered"><pop:content.title /></h1>
-
   <pop:content.body />
 
   <pop:content.image_gallery>
