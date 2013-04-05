@@ -33,18 +33,18 @@ window.showVideo = function (e) {
       <div class="edge-bottom"></div>
     </div>
 
-    <img src="<pop:content.super_banner.src />" usemap="#banner-map">
+    <!-- <img src="<pop:content.super_banner.src />" usemap="#banner-map">
 
     <map name="banner-map">
       <area shape="rect" coords="0,0,960,531" href="/major-events/jesus-hockey-the-homeless">
-    </map>
+    </map> -->
   </div>
 
   <pop:content>
-    <!-- BEGIN #slides --
+    <!-- BEGIN #slides -->
     <div id="slides" class="slide-loader section">
 
-      <!-- BEGIN .slides_container --
+      <!-- BEGIN .slides_container -->
       <div class="slides_container">
 
         <pop:slides resize="limit" width="980" height="450">
@@ -56,7 +56,7 @@ window.showVideo = function (e) {
           </div>
         </pop:slides>
 
-      <!-- END .slides_container --
+      <!-- END .slides_container -->
       </div>
 
       <a href="#" class="prev"><img src="img/arrow-prev.png" alt="Arrow Prev"></a>
