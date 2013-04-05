@@ -57,35 +57,44 @@
   <div id="main-menu-wrapper" class="clearfix">
 
     <ul id="main-menu" class="fl">
-      <li class="<pop:active>current_page_item</pop:active>">
+
+      <li class="">
         <a href="/about-us">About Us</a>
-        <pop:sections wrap="ul" from="about-us">
-          <li>
-            <a href="<pop:permalink/>"><pop:title/></a>
-            <pop:sections wrap="ul" except="pennies-from-heaven">
-            <li><a href="<pop:permalink/>"><pop:title/></a></li>
-            </pop:sections>
-          </li>
-        </pop:sections>
+        <ul>
+          <li><a href="/about-us/history">History</a></li>
+          <li><a href="/about-us/meet-the-soupman">Meet the SoupMan</a></li>
+          <li><a href="/about-us/faq">FAQs</a></li>
+          <li class=""><a href="/our-partners">Our Partners</a></li>
+          <li><a href="/about-us/financials">Financials</a></li>
+          <li><a href="/about-us/celebrate-jesus">Celebrate Jesus</a></li>
+          <li><a href="/about-us/soupmans-wishlist">SoupMan&#x27;s Wishlist</a></li>
+          <li><a href="/about-us/lons-limelights">Lon&#x27;s Limelights</a></li>
+          <li><a href="/about-us/contact">Contact Us / Directions</a></li>
+        </ul>
       </li>
-      <pop:sections except="about-us,search,donate,celebrate-jesus,volunteer,major-events" from="/">
-        <li class="<pop:active>current_page_item</pop:active>">
-          <a href="<pop:permalink/>"><pop:title/></a>
-          <pop:show_subs>
-            <pop:sections wrap="ul">
-              <li>
-                <a href="<pop:permalink/>"><pop:title/></a>
-                <pop:sections wrap="ul" except="pennies-from-heaven">
-                <li><a href="<pop:permalink/>"><pop:title/></a></li>
-                </pop:sections>
-              </li>
-            </pop:sections>
-          </pop:show_subs>
+
+        <li class=""><a href="/our-missions">Our Missions</a></li>
+
+        <li>
+          <a href="/about-us/in-the-news">In the news</a>
+          <ul>
+            <li><a href="/about-us/in-the-news/tv">TV</a></li>
+            <li><a href="/about-us/in-the-news/print">Print</a></li>
+            <li><a href="/about-us/in-the-news/radio">Radio</a></li>
+          </ul>
         </li>
-      </pop:sections>
-      <li class="<pop:active>current_page_item</pop:active>">
-        <a href="/about-us/soupmans-wishlist">Soupman's Wishlist</a>
-      </li>
+
+        <li class=""><a href="/souper-100">Souper 100</a></li>
+
+        <li class="">
+          <a href="/thrift-store">Thrift Store</a>
+          <ul>
+            <li>
+              <a href="/thrift-store/donate-items">Donate Items</a>
+            </li>
+          </ul>
+        </li>
+      <li class=""><a href="/about-us/soupmans-wishlist">Soupman's Wishlist</a></li>
     </ul>
   </div>
 
