@@ -12,21 +12,20 @@
     </pop:description>
 
     <pop:not_description>
-      <pop:content from="/">
+      <pop:home>
         <meta property="og:description" content="<pop:description/>"/>
-      </pop:content>
+      </pop:home>
     </pop:not_description>
   </pop:content>
 
-  <pop:content.facebook_gallery from="/">
+  <pop:home.facebook_gallery from="root">
     <meta property="og:image" content="<pop:src />"/>
-  </pop:content.facebook_gallery>
+  </pop:home.facebook_gallery>
   <meta property="og:image" content="http://www.soupmobile.org/images/fb/van-logo.png"/>
 
   <!--Title-->
   <pop:seo>
     <title><pop:content.title/> | SoupMobile</title>
-    <meta property="description" content="<pop:description/>"/>
   </pop:seo>
 
   <!--Stylesheets-->
