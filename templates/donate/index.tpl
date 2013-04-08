@@ -47,7 +47,7 @@
 
 
             <td width="280" valign="top">
-              <form method="post">
+              <form action="/donate/submit" method="post">
               <pop:form:deliver type="PERSONAL">
               </pop:form:deliver>
 
@@ -71,7 +71,7 @@
 
 
             <td width="280" valign="top">
-              <form method="post">
+              <form action="/donate/submit" method="post">
               <pop:form:deliver type="SOUPMOBILE_VILLAGE">
               </pop:form:deliver>
 
@@ -93,7 +93,7 @@
 
 
             <td width="280" valign="top">
-              <form method="post">
+              <form action="/donate/submit" method="post">
                 <div class="form-height">
                   <div class="field"><input id="amount_1" class="mainForm" name="amount" type="radio" value="100"><label class="formFieldOption" for="field_1_option_5">$100 Sponsors one homeless person's stay at a World Class Hotel on Christmas.</label></div>
                   <div class="field"><input id="3" class="mainForm" name="amount" type="radio" value="other"><label class="formFieldOption" for="field_1_option_4">Other:  $ <input id="field_4" class="mainForm" name="otheramount" size="10" type="text"></label></div>
