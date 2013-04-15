@@ -40,13 +40,7 @@
       </a>
     </div>
 
-    <div class="donate-btn fr">
-      <div class="donate-left"></div>
-      <a href="/donate" class="donate-mid"><span>Donate Now+</span></a>
-      <div class="donate-right">
-        <div class="donate-right-inner"></div>
-      </div>
-    </div>
+    <a href="/donate" class="donate-btn">Donate Now &gt;&gt;</a>
 
     <a href="/volunteer" class="volunteer-btn">
       Click Here to Volunteer
@@ -95,6 +89,7 @@
           </ul>
         </li>
       <li class=""><a href="/about-us/soupmans-wishlist">Soupman's Wishlist</a></li>
+      <li class="dbl-line"><a class="outline" href="/chapel">SoupMobile<br />Chapel</a></li>
     </ul>
   </div>
 

@@ -28,18 +28,18 @@
         <tbody>
           <tr>
             <td width="280" valign="top">
-              <h2>Mission #1<br />Feeding the Homeless</h2>
+              <h2>Feeding the Homeless</h2>
               <h5>Serving more than 200,000 meals per year</h5>
             </td>
 
             <td width="280" valign="top">
-              <h2>Mission #2<br />SoupMobile Village</h2>
+              <h2>SoupMobile Village</h2>
               <h5>Housing the homeless in our 7 group homes</h5>
             </td>
 
             <td width="280" valign="top">
-              <h2>Mission #3<br />Celebrate Jesus</h2>
-              <h5>Giving the homeless a magical Christmas</h5>
+              <h2 class="red">SoupMobile Chapel</h2>
+              <h5>Coffee and Christ</h5>
             </td>
           </tr>
 
@@ -63,7 +63,7 @@
                 </div>
                 <input type="hidden" name="type" value="FEED_THE_HOMELESS" />
 
-                <div class="comments-field">Comments:<br> <textarea maxlength="110" style="width: 263px; height: 85px;" cols="20" rows="4" name="comment"><pop:form:deliver.error><pop:form:deliver.comment /></pop:form:deliver.error></textarea></div>
+                <div class="comments-field">Comments:<br> <textarea maxlength="110" cols="20" rows="4" name="comment"><pop:form:deliver.error><pop:form:deliver.comment /></pop:form:deliver.error></textarea></div>
                 <p align="right"><input id="saveForm" class="mainForm" type="submit" value="Submit"></p>
 
               </form>
@@ -85,7 +85,7 @@
                 </div>
                 <input type="hidden" name="type" value="SOUPMOBILE_VILLAGE" />
 
-                <div class="comments-field">Comments:<br><textarea maxlength="110" style="width: 263px; height: 85px;" cols="20" rows="4" name="comment"><pop:form:deliver.error><pop:form:deliver.comment /></pop:form:deliver.error></textarea></div>
+                <div class="comments-field">Comments:<br><textarea maxlength="110" cols="20" rows="4" name="comment"><pop:form:deliver.error><pop:form:deliver.comment /></pop:form:deliver.error></textarea></div>
                 <p align="right"><input id="saveForm" class="mainForm" type="submit" value="Submit"></p>
 
               </form>
@@ -94,16 +94,31 @@
 
             <td width="280" valign="top">
               <form action="/donate/submit" method="post">
-                <div class="form-height">
+                <div class="form-height split">
+                  <div class="field"><label style="font-size: 1em">Whatever amount God lays on<br />your heart: $ <input id="field_4" class="mainForm" name="otheramount" size="10" type="text"></label></div>
+                </div>
+                <input type="hidden" name="amount" value="other" />
+                <input type="hidden" name="type" value="SOUPMOBILE_CHAPEL" />
+
+                <div class="comments-field">Comments:<br> <textarea class="mini" maxlength="110" cols="20" rows="3" name="comment"><pop:form:deliver.error><pop:form:deliver.comment /></pop:form:deliver.error></textarea></div>
+                <p align="right"><input id="saveForm" class="mainForm" type="submit" value="Submit"></p>
+
+              </form>
+
+              <form action="/donate/submit" method="post">
+                <div class="form-height split second">
+                  <h2 class="secondary">Celebrate Jesus</h2>
+                  <h5 class="secondary">Giving the homeless a magical Christmas</h5>
                   <div class="field"><input id="amount_1" class="mainForm" name="amount" type="radio" value="100"><label class="formFieldOption" for="field_1_option_5">$100 Sponsors one homeless person's stay at a World Class Hotel on Christmas.</label></div>
                   <div class="field"><input id="3" class="mainForm" name="amount" type="radio" value="other"><label class="formFieldOption" for="field_1_option_4">Other:  $ <input id="field_4" class="mainForm" name="otheramount" size="10" type="text"></label></div>
                 </div>
                 <input type="hidden" name="type" value="CELEBRATE_JESUS" />
 
-                <div class="comments-field">Comments:<br> <textarea maxlength="110" style="width: 263px; height: 85px;" cols="20" rows="4" name="comment"><pop:form:deliver.error><pop:form:deliver.comment /></pop:form:deliver.error></textarea></div>
+                <div class="comments-field">Comments:<br> <textarea maxlength="110" cols="20" rows="3" name="comment"><pop:form:deliver.error><pop:form:deliver.comment /></pop:form:deliver.error></textarea></div>
                 <p align="right"><input id="saveForm" class="mainForm" type="submit" value="Submit"></p>
 
               </form>
+
             </td>
 
 

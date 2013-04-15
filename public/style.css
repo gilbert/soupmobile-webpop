@@ -268,7 +268,7 @@ strong { font-weight: bold; }
 #header-inner {
   background: url(images/teartop.png) repeat-x bottom transparent;
   padding: 0 0 14px 0;
-  height: 210px;
+  height: 224px;
 }
 
 #page-header {
@@ -327,62 +327,42 @@ strong { font-weight: bold; }
 
 /* 3.1 - Donate Button */
 .donate-btn {
+  /*font-family: 'Nothing You Could Do', cursive;*/
+  background: #ffff00;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+  display: inline-block;
+  float: right;
+  font-family: serif;
   font-size: 32px;
-  text-indent: -8px;
-  position: relative;
-  right: 18px;
+  padding: 10px;
+  text-align: center;
+}
+.donate-btn:hover {
+  background: #F7CF0E;
 }
 
-.donate-btn a.donate-mid:hover {
-  text-decoration: underline !important;
+.volunteer-btn {
+  background: #B8D8F9;
+  border: 2px solid #0B3B83;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  float: right;
+  margin: 9px 0 0;
+  padding: 6px 12px;
+  width: 202px;
 }
-
-.donate-btn .donate-mid {
-  background: url(images/donate-middle.png) repeat-x;
-  height: 37px;
-  padding: 14px 0 0 0;
-  display: block;
-}
-
-.donate-btn .donate-mid span {
-  position: relative;
-  display: block;
-  z-index: 99;
-  top: 3px;
-}
-
-.donate-btn .donate-left, .donate-right-inner {
-  background: url(images/donate-ends.png) no-repeat;
-  display: block;
-}
-
-.donate-btn .donate-left {
-  width: 40px;
-  height: 51px;
-  position: absolute;
-  top: 2px;
-  left: -40px;
-}
-
-.donate-btn .donate-right {
-  width: 51px;
-  height: 51px;
-  position: absolute;
-  top: 0;
-  right: -35px;
-}
-
-.donate-btn .donate-right-inner {
-  width: 51px;
-  height: 53px;
-  position: absolute;
-  top: 2px;
-  background-position: -55px 0;
+.volunteer-btn:hover {
+  background: #89bef5;
 }
 
 /* 4.0 - Main Menu */
 #main-menu-wrapper {
-  padding: 12px 14px 0 14px;
+  padding: 4px 14px 18px 14px;
   height: 40px;
   width: 936px;
   -webkit-border-radius: 3px;
@@ -433,6 +413,31 @@ strong { font-weight: bold; }
 }
 #main-menu li a {
   color: white;
+  text-align: center;
+}
+#main-menu > li {
+  padding-top: 11px;
+}
+#main-menu > li a {
+  font-size: 0.95em;
+  line-height: 1.4;
+}
+#main-menu > li.dbl-line {
+  padding-top: 0;
+}
+#main-menu > li.dbl-line a {
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -o-border-radius: 14px;
+  border-radius: 14px;
+}
+#main-menu > li.dbl-line a.outline {
+  background: #eee;
+  color: #c00;
+  font-weight: bold;
+}
+#main-menu > li.dbl-line a.outline:hover {
+  background: #fdd;
 }
 
 #main-menu li {
@@ -442,7 +447,7 @@ strong { font-weight: bold; }
 #main-menu li li a {
   font-size: 13px;
   margin: 0;
-  padding: 18px 14px;
+  padding: 10px 14px;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   -o-border-radius: 0px;
@@ -702,11 +707,7 @@ blockquote {
 }
 
 /* 5.4 - Buttons */
-.donate-btn {
-  font-family: 'Nothing You Could Do', cursive;
-}
-
-.button1:hover, .button2:hover, .button3:hover {
+.button1:hover, .button2:hover {
   border: #c7c7c7 1px solid;
   text-decoration: none !important;
 }
@@ -737,11 +738,16 @@ blockquote {
 }
 
 .button3 {
+  border: #ccc 2px solid;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 400;
   padding: 10px 15px 0 15px;
   height: 36px;
+}
+.button3:hover {
+  border-color: #999;
+  text-decoration: none !important;
 }
 
 /* 5.5 - Other */
@@ -1853,11 +1859,40 @@ ul#timeline .date {
   top: 1px;
 }
 
+#donate textarea {
+  width: 263px; height: 85px;
+}
+#donate textarea.mini {
+  height: 45px;
+  padding-top: 3px;
+}
+
 #donate .form-height {
   text-align: left;
-  height: 390px;
+  height: 436px;
 }
-#donate .form-height.first { height: 380px; }
+#donate .form-height.first { height: 426px; }
+
+#donate .form-height.split {
+  height: 80px;
+}
+#donate .form-height.split.second {
+  height: 208px;
+}
+#donate h2.secondary {
+  background: white;
+  border-top: 4px solid #007FFF;
+  margin: 0 -10px;
+  padding: 10px 0;
+  text-align: center;
+}
+#donate h5.secondary {
+  background: white;
+  border-bottom: 1px solid #DEE0E0;
+  margin: 0 -10px;
+  padding: 0 0 10px 0;
+  text-align: center;
+}
 
 
 #donate .form-height input[name="otheramount"] {
@@ -2083,7 +2118,7 @@ table.wishlist-entry td.body { padding-top: 30px; }
   width: 500px;
 }
 
-#content iframe {
+#content iframe#iframe {
   width: 100%;
 }
 #content-inner-wrap {

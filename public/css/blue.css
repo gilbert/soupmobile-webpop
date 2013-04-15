@@ -1,11 +1,17 @@
 /* Green */
 
 /* #1e771a */
-a, .top-menu li, .button1, #footer .button1, .button2, .button3, 
-.accordion h4.ui-state-active, .toggle .active, 
-.blog-prev .blog-prev-content h4 a, .event-prev .event-prev-content h4 a, 
+a, .top-menu li, .button1, #footer .button1, .button2,
+.accordion h4.ui-state-active, .toggle .active,
+.blog-prev .blog-prev-content h4 a, .event-prev .event-prev-content h4 a,
 #footer-copy p .footer-menu {
 	color: #007fff;
+}
+.blog-prev-content h4 a.red {
+	color: #c00;
+}
+.button3 {
+	color: red;
 }
 
 .ui-tabs .ui-tabs-nav li.ui-tabs-selected a {
@@ -18,7 +24,7 @@ a, .top-menu li, .button1, #footer .button1, .button2, .button3,
 
 #main-menu .current_page_item a, #main-menu .current-menu-item a,
 #main-menu li a:hover, #main-menu li.sfHover a,
-#main-menu a:focus, #main-menu a:hover, #main-menu a:active, .title-end, 
+#main-menu a:focus, #main-menu a:hover, #main-menu a:active, .title-end,
 .blog-title .comment-count, .blog-title-single .comment-count, .event-prev .event-prev-date {
 	background: #007fff;
 }
@@ -74,7 +80,7 @@ a, .top-menu li, .button1, #footer .button1, .button2, .button3,
 }
 
 /* #1c451a */
-#top-bar, #main-menu-wrapper, .pagination li.current a, 
+#top-bar, #main-menu-wrapper, .pagination li.current a,
 #footer-wrapper #footer .widget .widget-title, #footer-copy-wrapper {
 	background: #0b3b83;
 }
