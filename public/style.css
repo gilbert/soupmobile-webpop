@@ -2090,3 +2090,18 @@ table.wishlist-entry td.body { padding-top: 30px; }
   width: 700px;
   margin: 0 auto;
 }
+
+.book-promo {
+  float: left;
+  width: 48%;
+}
+.book-promo + .book-promo { margin-left: 4%; }
+.book-promo img {
+  width: 166px;
+  float: right;
+}
+.book-promo p {
+  padding-top: 28px;
+  margin: 0;
+  height: 10em;
+}
