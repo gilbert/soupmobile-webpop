@@ -333,15 +333,21 @@ strong { font-weight: bold; }
   -webkit-border-radius: 10px;
   border-radius: 10px;
   border: 2px solid black;
+  color: black;
   display: inline-block;
-  float: right;
   font-family: serif;
   font-size: 32px;
   padding: 10px;
   text-align: center;
+  text-decoration: none;
 }
-.donate-btn:hover {
+a.donate-btn:hover {
   background: #F7CF0E;
+  text-decoration: none;
+}
+
+#header .donate-btn {
+  float: right;
 }
 
 .volunteer-btn {
