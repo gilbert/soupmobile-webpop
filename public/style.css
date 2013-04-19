@@ -2153,14 +2153,28 @@ table.wishlist-entry td.body { padding-top: 30px; }
   width: 48%;
 }
 .book-promo + .book-promo { margin-left: 4%; }
+.book-promo.last {
+  float: none;
+  margin: 20px auto 0;
+  width: 53%;
+}
 .book-promo img {
   width: 166px;
   float: right;
+}
+.book-promo.last img {
+  margin-left: 15px;
 }
 .book-promo p {
   padding-top: 28px;
   margin: 0;
   height: 10em;
+}
+.book-promo.last p {
+  height: auto;
+}
+.book-promo.last strong {
+  font-size: 1.4em;
 }
 
 #mayor {
