@@ -82,21 +82,35 @@ ol, ul {
 }
 
 blockquote {
+  border-left: 8px solid #ccc;
   font-family: serif;
-  margin: 20px;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes:"\201C""\201D""\2018""\2019";
 }
-blockquote p { font-size: 1.6em; }
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.11em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+  font-size: 1.6em;
+}
 
-blockquote, q {
+/*blockquote, q {
   quotes: none;
 }
-
-blockquote:before, blockquote:after,
+*/
+/*blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
-
+*/
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -167,10 +181,12 @@ strong { font-weight: bold; }
 .fl {
   float: left;
 }
+img.fl { margin-right: 10px; }
 
 .fr {
   float: right;
 }
+img.fr { margin-left: 10px; }
 
 /* 2.1 - Column Structure */
 .one-third {
@@ -2146,3 +2162,27 @@ table.wishlist-entry td.body { padding-top: 30px; }
   margin: 0;
   height: 10em;
 }
+
+#mayor {
+  background: #eee;
+  margin: 0 auto 40px;
+  padding: 30px;
+  width: 900px;
+}
+#mayor .with-caption {
+  float: left;
+  margin-right: 30px;
+  width: 245px;
+}
+#mayor blockquote { border-left: none; }
+#mayor blockquote u { text-decoration: underline; }
+#mayor blockquote b {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+#mayor h2.red {
+  color: #d00;
+  line-height: 1.3;
+}
+#mayor > p { font-size: 1.2em; }
+#mayor .blue { color: #0878C8; }

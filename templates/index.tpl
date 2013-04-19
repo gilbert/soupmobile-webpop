@@ -40,11 +40,34 @@ window.showVideo = function (e) {
     </map> -->
   </div>
 
+  <div id="mayor">
+    <div class="with-caption">
+      <img src="http://i.imgur.com/6zlgbhO.jpg" />
+      <p>Dallas Mayor Mike Rawlings, and son Gunnar at the 10,000 Man Domestic Abuse Rally in Dallas March 23, 2013</p>
+    </div>
+    <h2 class="red">SoupMobile draws a line in the sand against Domestic Abuse!</h2>
+    <p class="blue">We are pleased to announce that Mr. Gunnar Rawlings will be
+    the keynote speaker at the SoupMobile’s Souper 100 Ladies
+    Tea at the downtown Dallas Ritz-Carlton Hotel on May 13th.</p>
+    <p class="blue">Gunnar is a longtime Dallas resident with deep ties to the
+    community. He will be championing the Domestic Abuse issue
+    that his father, Dallas Mayor Mike Rawlings spoke about at the
+    10,000 Man Rally at Dallas City Hall on March 23rd.</p>
+    <blockquote>
+      <p>
+        You can call a guy that hits a woman a lot of things, but you <u>cannot</u> call him a man!
+        <b class="blue">- Dallas Mayor Mike Rawlings, 3/23/2013</b>
+      </p>
+    </blockquote>
+    <a href="/souper-100" class="donate-btn">Learn More &gt;&gt;</a>
+    <div class="clearfix"></div>
+  </div>
+
   <pop:content>
-    <!-- BEGIN #slides -->
+    <!-- BEGIN #slides --
     <div id="slides" class="slide-loader section">
 
-      <!-- BEGIN .slides_container -->
+      <!-- BEGIN .slides_container --
       <div class="slides_container">
 
         <pop:slides resize="limit" width="980" height="450">
@@ -56,7 +79,7 @@ window.showVideo = function (e) {
           </div>
         </pop:slides>
 
-      <!-- END .slides_container -->
+      <!-- END .slides_container --
       </div>
 
       <a href="#" class="prev"><img src="img/arrow-prev.png" alt="Arrow Prev"></a>
@@ -163,17 +186,16 @@ window.showVideo = function (e) {
     <div class="one-third last-col">
       <h3 class="title1">Connect with SoupMobile<span class="title-end"></span></h3>
 
-      <pop:content>
-        <iframe class="youtube-player" type="text/html" width="305" height="200" src="<pop:soupman_video_url />" frameborder="0"></iframe>
-        <h4>What Jesus Taught the SoupMan</h4>
-      </pop:content>
-
       <div class="event-prev clearfix">
-        <hr />
         <img alt="Find us on Facebook." src="images/find-us-on-facebook.jpeg" height="50" width="309" />
         <br />
         <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fsoupmobile&amp;width=309&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=false&amp;appId=170862359670878" scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 309px; height: 258px;" allowtransparency="true"></iframe>
       </div>
+
+      <pop:content>
+        <h4>What Jesus Taught the SoupMan</h4>
+        <iframe class="youtube-player" type="text/html" width="305" height="200" src="<pop:soupman_video_url />" frameborder="0"></iframe>
+      </pop:content>
 
 <!--         <div class="event-prev clearfix">
         <div class="event-prev-date">
