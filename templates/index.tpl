@@ -53,12 +53,10 @@ window.showVideo = function (e) {
     community. He will be championing the Domestic Abuse issue
     that his father, Dallas Mayor Mike Rawlings spoke about at the
     10,000 Man Rally at Dallas City Hall on March 23rd.</p>
-    <blockquote>
-      <p>
-        You can call a guy that hits a woman a lot of things, but you <u>cannot</u> call him a man!
-        <b class="blue">- Dallas Mayor Mike Rawlings, 3/23/2013</b>
-      </p>
-    </blockquote>
+    <p class="quote">
+      "You can call a guy that hits a woman a lot of things, but you <u>cannot</u> call him a man!"
+      <b class="blue">- Dallas Mayor Mike Rawlings, 3/23/2013</b>
+    </p>
     <a href="/souper-100" class="donate-btn">Learn More &gt;&gt;</a>
     <div class="clearfix"></div>
   </div>

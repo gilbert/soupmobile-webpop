@@ -2191,9 +2191,11 @@ table.wishlist-entry td.body { padding-top: 30px; }
   margin-right: 30px;
   width: 245px;
 }
-#mayor blockquote { border-left: none; }
-#mayor blockquote u { text-decoration: underline; }
-#mayor blockquote b {
+#mayor p.quote {
+  font-size: 1.6em;
+}
+#mayor p.quote u { text-decoration: underline; }
+#mayor p.quote b {
   font-size: 0.9em;
   font-weight: bold;
 }
