@@ -6,7 +6,7 @@
 
   <style type="text/css">
     #golf-info {
-      background: url(public/bg-golf.jpg) top middle;
+      background: url(/images/bg-golf.jpg) top middle;
     }
   </style>
 
@@ -20,6 +20,14 @@
 
 
     <div class="one-fourth-left">
+      <h3>Contact</h3>
+      <p>
+        <strong>Lon Ricker</strong><br />
+        SoupMobile, Inc.<br />
+        214-655-6396<br />
+        lon@soupmobile.org
+      </p>
+
       <h3>When</h3>
       <p>Friday June 7, 2013 from 12:00 PM to 5:00 PM CDT</p>
 
@@ -30,13 +38,6 @@
         Frisco, TX 75034
       </p>
 
-      <h3>Contact</h3>
-      <p>
-        <strong>Lon Ricker</strong><br />
-        SoupMobile, Inc.<br />
-        214-655-6396<br />
-        lon@soupmobile.org
-      </p>
     </div>
 
   </div>
