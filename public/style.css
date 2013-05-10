@@ -2165,6 +2165,9 @@ table.wishlist-entry td.body { padding-top: 30px; }
 .book-promo.last img {
   margin-left: 15px;
 }
+.book-promo.last a.amazon-link img {
+  float: none;
+}
 .book-promo p {
   padding-top: 28px;
   margin: 0;
