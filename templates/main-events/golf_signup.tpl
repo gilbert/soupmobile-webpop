@@ -4,31 +4,48 @@
 
 <pop:block region="main">
 
-  <div id="content-inner-wrap">
+  <div id="golf-info" class="blog-event-prev-wrapper section clearfix">
 
-    <h6>Sign Up for the</h6>
-    <h1>SoupMobile 4th Annual Golf Outing</h1>
+    <div class="inner">
 
-    <h3>When</h3>
-    <p>Friday June 7, 2013 from 12:00 PM to 5:00 PM CDT</p>
+      <div class="spacer" style="height: 50px"></div>
 
-    <h3>Where</h3>
-    <p>
-      <strong>Frisco Lakes Golf Club</strong><br />
-      7170 Anthem Drive<br />
-      Frisco, TX 75034
-    </p>
+      <div class="three-fourths-right last-col body">
+        <div id="iframe" allowTransparency="true">
+          <h3>Loading...</h3>
+        </div>
+      </div>
 
-    <h3>Contact</h3>
-    <p>
-      <strong>Lon Ricker</strong><br />
-      SoupMobile, Inc.<br />
-      214-655-6396<br />
-      lon@soupmobile.org
-    </p>
 
-    <div id="iframe">
-      <h3>Loading...</h3>
+      <div class="one-fourth-left">
+        <h3>When</h3>
+        <p>Friday June 7, 2013 from 12:00 PM to 5:00 PM CDT</p>
+
+        <h3>Where</h3>
+        <p>
+          <strong>Frisco Lakes Golf Club</strong><br />
+          7170 Anthem Drive<br />
+          Frisco, TX 75034
+        </p>
+        <img id="map" src="https://api.tiles.virtualearth.net/api/GetMap.ashx?ppl=24,,33.139038,-96.90945&amp;z=12&amp;h=200&amp;w=200
+          " alt="Event Address Map">
+        <br />
+        <a id="drive_dir_link_2" target="_blank" href="http://maps.google.com/maps?daddr=7170+Anthem+Drive,Frisco,TX+75034+us">Driving Directions</a>
+
+        <br />
+        <br />
+        <h3>Contact</h3>
+        <p>
+          <strong>Lon Ricker</strong><br />
+          SoupMobile, Inc.<br />
+          214-655-6396<br />
+          lon@soupmobile.org
+        </p>
+
+      </div>
+
+
+    <div class="clearfix"></div>
     </div>
   </div>
 
