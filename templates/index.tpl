@@ -33,39 +33,18 @@ window.showVideo = function (e) {
       <div class="edge-bottom"></div>
     </div>
 
-    <!-- <img src="<pop:content.super_banner.src />" usemap="#banner-map">
+    <!-- <img src="<pop:content.super_banner.src />" usemap="#banner-map"> -->
 
     <map name="banner-map">
-      <area shape="rect" coords="0,0,960,531" href="/major-events/jesus-hockey-the-homeless">
-    </map> -->
-  </div>
-
-  <div id="mayor">
-    <div class="with-caption">
-      <img src="http://i.imgur.com/6zlgbhO.jpg" />
-      <p>Dallas Mayor Mike Rawlings, and son Gunnar at the 10,000 Man Domestic Abuse Rally in Dallas March 23, 2013</p>
-    </div>
-    <h2 class="red">SoupMobile draws a line in the sand against Domestic Abuse!</h2>
-    <p class="blue">We are pleased to announce that Mr. Gunnar Rawlings will be
-    the keynote speaker at the SoupMobile’s Souper 100 Ladies
-    Tea at the downtown Dallas Ritz-Carlton Hotel on May 13th.</p>
-    <p class="blue">Gunnar is a longtime Dallas resident with deep ties to the
-    community. He will be championing the Domestic Abuse issue
-    that his father, Dallas Mayor Mike Rawlings spoke about at the
-    10,000 Man Rally at Dallas City Hall on March 23rd.</p>
-    <p class="quote">
-      "You can call a guy that hits a woman a lot of things, but you <u>cannot</u> call him a man!"
-      <b class="blue">- Dallas Mayor Mike Rawlings, 3/23/2013</b>
-    </p>
-    <a href="/souper-100" class="donate-btn">Learn More &gt;&gt;</a>
-    <div class="clearfix"></div>
+      <!-- <area shape="rect" coords="0,0,960,531" href="http://www.soupmobile.org/major-events/charity-golf-outing/4th"> -->
+    </map>
   </div>
 
   <pop:content>
-    <!-- BEGIN #slides --
+    <!-- BEGIN #slides -->
     <div id="slides" class="slide-loader section">
 
-      <!-- BEGIN .slides_container --
+      <!-- BEGIN .slides_container -->
       <div class="slides_container">
 
         <pop:slides resize="limit" width="980" height="450">
@@ -77,7 +56,7 @@ window.showVideo = function (e) {
           </div>
         </pop:slides>
 
-      <!-- END .slides_container --
+      <!-- END .slides_container -->
       </div>
 
       <a href="#" class="prev"><img src="img/arrow-prev.png" alt="Arrow Prev"></a>
