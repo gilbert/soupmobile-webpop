@@ -71,15 +71,12 @@ window.showVideo = function (e) {
 
     <div id="email_subscribe" class="msg1">
       <div class="edge-top"></div>
-      <form action="http://visitor.r20.constantcontact.com/d.jsp" method="post">
+      <form action="http://www.soupmobile.org/about-us/mailing-list-signup#signup-form" method="get">
         <span>
           <img src="http://soupmobile.org/images/email-newsletter-text.png" style="margin-right: 10px;">
-          <input name="ea" size="27" value="Enter Your Email Address" onfocus="if(this.value == 'Enter Your Email Address') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter Your Email Address';}" type="text">
+          <input name="email" size="27" value="Enter Your Email Address" onfocus="if(this.value == 'Enter Your Email Address') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter Your Email Address';}" type="text">
           <input style="margin-left: 10px;" src="http://soupmobile.org/images/email-subscribe-button.png" value="Submit" type="image">
         </span>
-        <input name="llr" value="5dl5mvcab" type="hidden">
-        <input name="m" value="1102377331838" type="hidden">
-        <input name="p" value="oi" type="hidden">
       </form>
       <div class="edge-bottom"></div>
     </div>

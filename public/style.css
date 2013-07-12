@@ -1814,7 +1814,7 @@ body .with-caption img { padding-bottom: 0;}
 #email_subscribe span > * {
   vertical-align: middle;
 }
-#email_subscribe input[name="ea"] {
+#email_subscribe input[name="email"] {
   width: 200px;
   margin-bottom: 0;
   padding: 5px;
