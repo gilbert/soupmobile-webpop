@@ -16,7 +16,7 @@
     <div class="breadcrumbs">
       <a href="/">Home</a>
       <span class="breadcrumbs-arrow"></span>
-      About Us
+      <pop:content.title />
     </div>
 
     <div class="blog-event-prev-wrapper section clearfix">
