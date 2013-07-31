@@ -37,7 +37,13 @@ window.showVideo = function (e) {
 
     <div class="super-banner">
       <a href="http://www.soupmobile.org/church"><img src="<pop:content.super_banner.src />"></a>
+      <a id="tv-video"
+         class="lightview"
+         data-lightview-title="SoupMobile's 10th Anniversary TV Special on WFAA Channel 8 on July 28, 2013"
+         href="http://www.youtube.com/embed/7MyBBDImcIs"
+      ><img src="/images/wfaa8.jpg" /></a>
     </div>
+
 
     <map name="banner-map">
       <!-- <area shape="rect" coords="0,0,960,531" href="http://www.soupmobile.org/major-events/charity-golf-outing/4th"> -->
