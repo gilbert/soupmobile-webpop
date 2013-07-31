@@ -2251,8 +2251,9 @@ table.wishlist-entry td.body { padding-top: 30px; }
 
 .super-banner #tv-video {
   position: absolute;
-  right: 200px;
-  bottom: -5px;
+  padding: 5px;
+  right: 20px;
+  bottom: 100px;
   z-index: 5;
 }
 .super-banner #tv-video:hover {

@@ -35,13 +35,13 @@ window.showVideo = function (e) {
 
     <!-- <img src="<pop:content.super_banner.src />" usemap="#banner-map"> -->
 
-    <div class="super-banner">
+    <div class="super-banner" style="margin-bottom: 40px;">
       <a href="http://www.soupmobile.org/church"><img src="<pop:content.super_banner.src />"></a>
       <a id="tv-video"
          class="lightview"
          data-lightview-title="SoupMobile's 10th Anniversary TV Special on WFAA Channel 8 on July 28, 2013"
          href="http://www.youtube.com/embed/7MyBBDImcIs"
-      ><img src="/images/wfaa8.jpg" /></a>
+      ><img src="/images/wfaa8.jpg" /><br />TV Special &mdash; SoupMobile Homeless Church</a>
     </div>
 
 
