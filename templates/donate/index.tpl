@@ -38,8 +38,8 @@
             </td>
 
             <td width="280" valign="top">
-              <h2 class="red">SoupMobile Chapel</h2>
-              <h5>Coffee and Christ</h5>
+              <h2 class="red">SoupMobile Church</h2>
+              <h5>Building Fund</h5>
             </td>
           </tr>
 

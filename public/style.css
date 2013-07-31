@@ -1798,6 +1798,14 @@ body .with-caption img { padding-bottom: 0;}
   -ms-transition: none;
   transition: none;
 }
+.img-left {
+  float: left;
+  margin: 0 15px 15px 0;
+}
+.img-right {
+  float: right;
+  margin: 0 0 15px 15px;
+}
 
 /* Custom stuff */
 #email_subscribe {
@@ -2234,4 +2242,8 @@ table.wishlist-entry td.body { padding-top: 30px; }
   box-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
   color: white;
   padding: 5px 25px;
+}
+
+.super-banner {
+  text-align: center;
 }
