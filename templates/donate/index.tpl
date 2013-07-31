@@ -93,12 +93,20 @@
 
 
             <td width="280" valign="top">
-              <form action="/donate/submit" method="post">
+              <form action="/donate/submit" method="post" class="church">
                 <div class="form-height split">
-                  <div class="field"><label style="font-size: 1em">Whatever amount God lays on<br />your heart: $ <input id="field_4" class="mainForm" name="otheramount" size="10" type="text"></label></div>
+                  <div class="field"><input class="mainForm" name="amount" type="radio" value="25"><label class="formFieldOption">$25</label></div>
+                  <div class="field"><input class="mainForm" name="amount" type="radio" value="100"><label class="formFieldOption">$100</label></div>
+                  <div class="field"><input class="mainForm" name="amount" type="radio" value="1000"><label class="formFieldOption">$1,000
+                  </label></div>
+                  <div class="field"><input class="mainForm" name="amount" type="radio" value="10000"><label class="formFieldOption">$10,000</label></div>
+                  <div class="field"><input class="mainForm" name="amount" type="radio" value="100000"><label class="formFieldOption">$100,000</label></div>
+                  <div class="field"><input class="mainForm" name="amount" type="radio" value="250000"><label class="formFieldOption">$250,000*</label></div>
+                  <div class="field"><input class="mainForm" name="amount" type="radio" value="other"><label class="formFieldOption">Other:  $ <input class="mainForm" name="otheramount" size="10" type="text"></label></div>
                 </div>
-                <input type="hidden" name="amount" value="other" />
-                <input type="hidden" name="type" value="SOUPMOBILE_CHAPEL" />
+                <input type="hidden" name="type" value="SOUPMOBILE_CHURCH" />
+
+                <p style="text-align: left">*Any funds received over the goal of $250,000 will go towards expanding the church and paying for operating expenses</p>
 
                 <div class="comments-field">Comments:<br> <textarea class="mini" maxlength="110" cols="20" rows="3" name="comment"><pop:form:deliver.error><pop:form:deliver.comment /></pop:form:deliver.error></textarea></div>
                 <p align="right"><input id="saveForm" class="mainForm" type="submit" value="Submit"></p>
@@ -150,7 +158,7 @@
       <br>
 
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="paypal">
-        <input type="hidden" name="return" value="http://example.com/donate" />
+        <input type="hidden" name="return" value="http://www.soupmobile.org/donate" />
         <input type="hidden" name="cmd" value="_donations">
         <input type="hidden" name="business" value="mobi@soupmobile.org">
         <input type="hidden" name="lc" value="US">
