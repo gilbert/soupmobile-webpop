@@ -40,7 +40,7 @@ window.showVideo = function (e) {
       <a id="tv-video"
          class="lightview"
          data-lightview-title="SoupMobile's 10th Anniversary TV Special on WFAA Channel 8 on July 28, 2013"
-         href="http://www.youtube.com/embed/7MyBBDImcIs"
+         href="http://www.youtube.com/embed/7MyBBDImcIs?rel=0&autoplay=1"
       ><img src="/images/wfaa8.jpg" /><br />TV Special &mdash; SoupMobile Homeless Church</a>
     </div>
 
