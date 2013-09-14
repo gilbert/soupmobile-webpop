@@ -2259,3 +2259,17 @@ table.wishlist-entry td.body { padding-top: 30px; }
 .super-banner #tv-video:hover {
   box-shadow: 0px 0px 15px #000;
 }
+
+.tv-video-link {
+  float: left;
+  margin-right: 20px;
+  position: relative;
+  width: 320px; height: 380px;
+}
+.tv-video-link a:before {
+  background: url(/images/youtube-play-button.png);
+  content: " ";
+  display: block;
+  position: absolute; left: 96px; top: 60px;
+  width: 128px; height: 128px;
+}

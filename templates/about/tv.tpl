@@ -10,7 +10,7 @@
 
         <div class="tv-video-link">
           <a class="lightview"
-             data-lightview-title="SoupMobile's 10th Anniversary TV Special on WFAA Channel 8 on July 28, 2013"
+             data-lightview-title="<pop:title />"
              href="http://www.youtube.com/embed/<pop:youtube_video_id />?rel=0&autoplay=1"
           >
             <img src="http://img.youtube.com/vi/<pop:youtube_video_id />/0.jpg" />
