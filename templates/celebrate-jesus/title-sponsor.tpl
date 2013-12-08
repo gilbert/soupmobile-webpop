@@ -47,18 +47,20 @@
 <pop:block region="js">
 <script type="text/javascript">
 
+  var captionText = "Mayor Tom Leppert, Mayor Mike Rawlings and Cary Maguire at the 2012 Celebrate Jesus Christmas Gala";
+
   $(document).ready(function () {
     var box = $('<div class="with-caption">');
     box.addClass('fr');
 
     var img = $('<img>');
     img.attr('src', '<pop:content.sponsors_image.src resize="fill" width="288" height="216" />');
-    img.attr('alt', '8th Annual Celebrate Jesus Sponsors to Date');
+    img.attr('alt', captionText);
     img.addClass('clickable');
     img.on('click', function (e) {
       Lightview.show({
         url: '<pop:content.sponsors_image.src />',
-        title: '8th Annual Celebrate Jesus Sponsors to Date',
+        title: captionText,
         options: {
           params: {
             controller: false
@@ -69,7 +71,7 @@
     box.append(img);
 
     var caption = $('<p>');
-    caption.text('8th Annual Celebrate Jesus Sponsors to Date');
+    caption.text(captionText);
     box.append(caption);
 
     $('#sig').before(box);

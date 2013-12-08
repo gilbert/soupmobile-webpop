@@ -2273,3 +2273,8 @@ table.wishlist-entry td.body { padding-top: 30px; }
   position: absolute; left: 96px; top: 60px;
   width: 128px; height: 128px;
 }
+
+.table-sponsor-link img {
+  margin: 0;
+  padding: 0;
+}

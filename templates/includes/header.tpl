@@ -42,7 +42,7 @@
 
     <a href="/donate" class="donate-btn">Donate Now &gt;&gt;</a>
 
-    <a href="/volunteer" class="volunteer-btn">
+    <a href="/celebrate-jesus" class="volunteer-btn">
       Click Here to Volunteer
     </a>
 

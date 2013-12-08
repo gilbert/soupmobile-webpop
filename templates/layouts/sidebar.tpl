@@ -41,7 +41,8 @@
             </ul>
           </div>
 
-          <a href="/volunteer">
+          <!-- <a href="/volunteer"> -->
+          <a href="http://www.soupmobile.org/celebrate-jesus">
             <span class="widget-title">
               <h4>Volunteer</h4>
             </span>
