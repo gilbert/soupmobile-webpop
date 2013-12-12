@@ -25,7 +25,10 @@
         <tbody>
           <pop:entries>
             <tr class="<pop:granted>granted</pop:granted>">
-              <td class="img" valign="top"><img src="<pop:image.src />" alt="<pop:image.alt />"></td>
+              <td class="img" valign="top">
+                <div class="granted hide granted-overlay"></div>
+                <img src="<pop:image.src />" alt="<pop:image.alt />">
+              </td>
               <td class="body" valign="top">
                 <h3 class="title"><pop:title /></h3>
                 <h3 class="granted hide">Granted!</h3>

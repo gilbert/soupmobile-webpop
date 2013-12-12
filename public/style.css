@@ -2077,6 +2077,11 @@ table.wishlist-entry td.body { padding-top: 30px; }
   display: inline;
   font-size: 2em;
 }
+#cj-wish #soupman-wishlist tr.granted .granted-overlay {
+  display: block;
+  position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+  background: url(/images/ui/granted-overlay.png) center center;
+}
 
 #qrxl {
   height: 671px;
