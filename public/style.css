@@ -2068,6 +2068,7 @@ table.wishlist-entry td.body { padding-top: 30px; }
 #cj-wish #soupman-wishlist h3 { color: #c00; }
 #cj-wish #soupman-wishlist table { table-layout: fixed; }
 #cj-wish #soupman-wishlist td.img { width: 280px; }
+#cj-wish #soupman-wishlist td.img .overlay-wrap { position: relative; }
 #cj-wish #soupman-wishlist td.body { text-align: left; }
 
 #cj-wish #soupman-wishlist tr.granted h3.title {

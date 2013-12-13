@@ -90,11 +90,11 @@
 
     <div class="centered"><img src="/images/divider_line2.png" alt="" style="margin-bottom: 24px" /></div>
 
-    <a href="/celebrate-jesus/volunteer" class="major-btn first">
+    <a href="http://secure.soupmobile.org/volunteer" class="major-btn first">
       <img class="up" src="/images/ui/volunteer_up.png" />
       <img class="down" src="/images/ui/volunteer_down.png" />
     </a>
-    <a href="/celebrate-jesus/donate" class="major-btn second">
+    <a href="http://secure.soupmobile.org/donate" class="major-btn second">
       <img class="up" src="/images/ui/cant_volunteer_up.png" />
       <img class="down" src="/images/ui/cant_volunteer_down.png" />
     </a>
