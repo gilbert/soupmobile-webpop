@@ -2,7 +2,7 @@
 <pop:include template="includes/hide-banner" />
 
 <pop:block region="main">
-
+<!--
   <div class="section">
     <div class="centered">
       <pop:content from="celebrate-jesus">
@@ -89,7 +89,7 @@
     </div>
 
     <div class="centered"><img src="/images/divider_line2.png" alt="" style="margin-bottom: 24px" /></div>
-
+ -->
     <a href="http://secure.soupmobile.org/volunteer" class="major-btn first">
       <img class="up" src="/images/ui/volunteer_up.png" />
       <img class="down" src="/images/ui/volunteer_down.png" />
@@ -99,6 +99,6 @@
       <img class="down" src="/images/ui/cant_volunteer_down.png" />
     </a>
 
-  </div>
+  <!-- </div> -->
 
 </pop:block>

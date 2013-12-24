@@ -36,7 +36,9 @@ window.showVideo = function (e) {
     <!-- <img src="<pop:content.super_banner.src />" usemap="#banner-map"> -->
 
     <div class="super-banner" style="margin-bottom: 40px;">
-      <img src="<pop:content.super_banner.src />" usemap="#banner-map">
+      <a href="http://www.soupmobile.org/donate">
+        <img src="<pop:content.super_banner.src />" usemap="#banner-map">
+      </a>
 <!--       <a id="tv-video"
          class="lightview"
          data-lightview-title="SoupMobile's 10th Anniversary TV Special on WFAA Channel 8 on July 28, 2013"
@@ -45,11 +47,11 @@ window.showVideo = function (e) {
     </div>
 
 
-    <map name="banner-map">
+    <!--<map name="banner-map">
       <area shape="rect" coords="368,346,740,456" href="http://www.soupmobile.org/celebrate-jesus">
-      <area shape="rect" coords="360,560,510,620" href="http://www.soupmobile.org/celebrate-jesus/">
-      <area shape="rect" coords="50,351,297,606" href="http://www.soupmobile.org/celebrate-jesus/christmas-boxes">
-    </map>
+      <area shape="rect" coords="50,351,297,606" href="http://www.soupmobile.org/celebrate-jesus">
+      <area shape="rect" coords="360,560,510,620" href="http://www.soupmobile.org/celebrate-jesus/wishlist">
+    </map>-->
   </div>
 
   <pop:content>
