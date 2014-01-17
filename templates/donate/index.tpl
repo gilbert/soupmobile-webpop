@@ -39,7 +39,7 @@
 
             <td width="280" valign="top">
               <h2 class="red">SoupMobile Church</h2>
-              <h5>Building Fund</h5>
+              <h5>Building and Operating Expenses</h5>
             </td>
           </tr>
 
