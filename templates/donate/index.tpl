@@ -101,12 +101,9 @@
                   </label></div>
                   <div class="field"><input class="mainForm" name="amount" type="radio" value="10000"><label class="formFieldOption">$10,000</label></div>
                   <div class="field"><input class="mainForm" name="amount" type="radio" value="100000"><label class="formFieldOption">$100,000</label></div>
-                  <div class="field"><input class="mainForm" name="amount" type="radio" value="250000"><label class="formFieldOption">$250,000*</label></div>
                   <div class="field"><input class="mainForm" name="amount" type="radio" value="other"><label class="formFieldOption">Other:  $ <input class="mainForm" name="otheramount" size="10" type="text"></label></div>
                 </div>
                 <input type="hidden" name="type" value="SOUPMOBILE_CHURCH" />
-
-                <p style="text-align: left">*Any funds received over the goal of $250,000 will go towards expanding the church and paying for operating expenses</p>
 
                 <div class="comments-field">Comments:<br> <textarea class="mini" maxlength="110" cols="20" rows="3" name="comment"><pop:form:deliver.error><pop:form:deliver.comment /></pop:form:deliver.error></textarea></div>
                 <p align="right"><input id="saveForm" class="mainForm" type="submit" value="Submit"></p>

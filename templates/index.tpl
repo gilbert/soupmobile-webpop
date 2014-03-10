@@ -35,16 +35,16 @@ window.showVideo = function (e) {
 
     <!-- <img src="<pop:content.super_banner.src />" usemap="#banner-map"> -->
 
-    <div class="super-banner" style="margin-bottom: 40px;">
+    <!-- <div class="super-banner" style="margin-bottom: 40px;">
       <a href="http://www.soupmobile.org/donate">
         <img src="<pop:content.super_banner.src />" usemap="#banner-map">
       </a>
-<!--       <a id="tv-video"
+      <a id="tv-video"
          class="lightview"
          data-lightview-title="SoupMobile's 10th Anniversary TV Special on WFAA Channel 8 on July 28, 2013"
          href="http://www.youtube.com/embed/7MyBBDImcIs"
-      ><img src="/images/wfaa8.jpg" /><br />TV Special &mdash; SoupMobile Homeless Church</a> -->
-    </div>
+      ><img src="/images/wfaa8.jpg" /><br />TV Special &mdash; SoupMobile Homeless Church</a>
+    </div> -->
 
 
     <!--<map name="banner-map">
@@ -55,10 +55,10 @@ window.showVideo = function (e) {
   </div>
 
   <pop:content>
-    <!-- BEGIN #slides --
+    <!-- BEGIN #slides -->
     <div id="slides" class="slide-loader section">
 
-      <!-- BEGIN .slides_container --
+      <!-- BEGIN .slides_container -->
       <div class="slides_container">
 
         <pop:slides resize="limit" width="980" height="450">
@@ -70,7 +70,7 @@ window.showVideo = function (e) {
           </div>
         </pop:slides>
 
-      <!-- END .slides_container --
+      <!-- END .slides_container -->
       </div>
 
       <a href="#" class="prev"><img src="img/arrow-prev.png" alt="Arrow Prev"></a>
