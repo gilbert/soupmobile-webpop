@@ -1,5 +1,10 @@
 $(document).ready(function() {
 
+	$(document).on('click', '.sib-show', function (e) {
+		e.preventDefault();
+		$(this).hide().next().show();
+	});
+
 	// Drop Down Menu
 	$('ul#main-menu').superfish({
         delay:       600,

@@ -2284,3 +2284,30 @@ table.wishlist-entry td.body { padding-top: 30px; }
   margin: 0;
   padding: 0;
 }
+
+form.donate-info {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 10px;
+}
+
+form.donate-info textarea {
+  margin-bottom: 0;
+  width: 350px; height: 98px;
+}
+form.donate-info button {
+  font-size: 1.2em;
+}
+
+.donate-info-success {
+  background: #00c000;
+  color: white;
+  margin-bottom: 30px;
+  padding: 20px;
+  text-align: center;
+  font-size: 2em;
+}
+.donate-info-success h3 {
+  margin: 0;
+}
+
