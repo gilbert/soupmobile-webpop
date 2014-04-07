@@ -88,7 +88,7 @@
             </li>
           </ul>
         </li>
-      <li class=""><a href="/about-us/soupmans-wishlist">Soupman's Wishlist</a></li>
+      <li class=""><a href="/church/wishlist">Church Wishlist</a></li>
       <li class="dbl-line"><a class="outline" href="/church">SoupMobile<br />Church</a></li>
     </ul>
   </div>

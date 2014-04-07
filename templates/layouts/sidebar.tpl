@@ -35,7 +35,7 @@
           <div class="widget-content">
             <ul class="sidebar-list">
               <li><a href="/">Home</a></li>
-              <pop:sections from="/about-us">
+              <pop:sections from="/about-us" except="soupmans-wishlist">
                 <li class="<pop:active>active</pop:active>"><a href="<pop:permalink/>"><pop:title/></a></li>
               </pop:sections>
             </ul>
