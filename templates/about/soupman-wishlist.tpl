@@ -26,27 +26,45 @@
     <pop:entries>
       <table class="wishlist-entry" border="0" cellspacing="10">
         <tbody>
-          <tr>
-            <td class="img" valign="top"><img src="<pop:image.src />" alt="<pop:image.alt />"></td>
+          <tr class="<pop:granted>granted</pop:granted>">
+            <td class="img" valign="top">
+              <div class="overlay-wrap">
+                <div class="granted hide granted-overlay"></div>
+                <img src="<pop:image.src />" alt="<pop:image.alt />">
+              </div>
+            </td>
             <td class="body" valign="top">
               <pop:body />
-              <a class="sib-show" href="#">Click here if you can help</a>
+              <a class="sib-show" href="#">Learn More</a>
               <form class="hide donate-info" method="post">
+                <div class="centered">
+                  <a class="button2" style="margin: 15px 0 10px;" href="/donate">Yes, I want to <strong style="color: #c00; font-weight: bold;">Donate</strong> now!</a>
+                </div>
                 <input name="item" type="hidden" value="<pop:title />" />
                 <label>Subject:</label>
-                <p>I'm interested in donating for <pop:title /></p>
+                <p>I'm interested in supporting <pop:title /></p>
 
-                <label>Full Name:</label>
+                <label for="name">Full Name:</label>
                 <input name="name" type="text" />
 
-                <label>Email:</label>
+                <label for="first_name">First Name:</label>
+                <input name="first_name" type="text" />
+
+                <label for="last_name">Last Name:</label>
+                <input name="last_name" type="text" />
+
+                <label for="email">Email:</label>
                 <input name="email" type="text" />
 
-                <label>Phone:</label>
+                <label for="phone">Phone:</label>
                 <input name="phone" type="text" />
 
-                <label>Message:</label>
-                <textarea name="message">Yes, SoupMan, I want to help!  Please put me down to donate for <pop:title />.</textarea>
+                <label for="message">How I can help:</label>
+                <textarea name="message"> (enter text here) </textarea>
+
+                <label for="comment">Comment:</label>
+                <input name="comment" type="text" />
+
                 <button type="submit">Submit</button>
               </form>
             </td>

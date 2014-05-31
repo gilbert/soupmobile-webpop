@@ -1970,6 +1970,19 @@ table.wishlist-entry td {
 table.wishlist-entry td.img { width: 380px; vertical-align: middle; }
 table.wishlist-entry td.body { padding-top: 30px; }
 
+table.wishlist-entry #soupman-wishlist tr.granted h3.title {
+  text-decoration: line-through;
+}
+table.wishlist-entry #soupman-wishlist tr.granted h3.granted {
+  display: inline;
+  font-size: 2em;
+}
+table.wishlist-entry #soupman-wishlist tr.granted .granted-overlay {
+  display: block;
+  position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+  background: url(/images/ui/granted-overlay.png) center center;
+}
+
 #logos-page img {
   border: 4px solid;
   margin: 10px;
@@ -2070,19 +2083,6 @@ table.wishlist-entry td.body { padding-top: 30px; }
 #cj-wish #soupman-wishlist td.img { width: 280px; }
 #cj-wish #soupman-wishlist td.img .overlay-wrap { position: relative; }
 #cj-wish #soupman-wishlist td.body { text-align: left; }
-
-#cj-wish #soupman-wishlist tr.granted h3.title {
-  text-decoration: line-through;
-}
-#cj-wish #soupman-wishlist tr.granted h3.granted {
-  display: inline;
-  font-size: 2em;
-}
-#cj-wish #soupman-wishlist tr.granted .granted-overlay {
-  display: block;
-  position: absolute; top: 0; left: 0; right: 0; bottom: 0;
-  background: url(/images/ui/granted-overlay.png) center center;
-}
 
 #qrxl {
   height: 671px;
