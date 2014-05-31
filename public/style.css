@@ -1970,14 +1970,14 @@ table.wishlist-entry td {
 table.wishlist-entry td.img { width: 380px; vertical-align: middle; }
 table.wishlist-entry td.body { padding-top: 30px; }
 
-table.wishlist-entry #soupman-wishlist tr.granted h3.title {
+table.wishlist-entry tr.granted h3.title {
   text-decoration: line-through;
 }
-table.wishlist-entry #soupman-wishlist tr.granted h3.granted {
+table.wishlist-entry tr.granted h3.granted {
   display: inline;
   font-size: 2em;
 }
-table.wishlist-entry #soupman-wishlist tr.granted .granted-overlay {
+table.wishlist-entry tr.granted .granted-overlay {
   display: block;
   position: absolute; top: 0; left: 0; right: 0; bottom: 0;
   background: url(/images/ui/granted-overlay.png) center center;
