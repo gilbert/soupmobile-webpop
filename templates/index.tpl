@@ -33,6 +33,10 @@ window.showVideo = function (e) {
       <div class="edge-bottom"></div>
     </div>
 
+    <a href="/church">
+      <img src="<pop:content.super_banner.src />" />
+    </a>
+
     <!-- <img src="<pop:content.super_banner.src />" usemap="#banner-map"> -->
 
     <!-- <div class="super-banner" style="margin-bottom: 40px;">
@@ -55,10 +59,10 @@ window.showVideo = function (e) {
   </div>
 
   <pop:content>
-    <!-- BEGIN #slides -->
+    <!-- BEGIN #slides --
     <div id="slides" class="slide-loader section">
 
-      <!-- BEGIN .slides_container -->
+      <!-- BEGIN .slides_container --
       <div class="slides_container">
 
         <pop:slides resize="limit" width="980" height="450">
@@ -70,7 +74,7 @@ window.showVideo = function (e) {
           </div>
         </pop:slides>
 
-      <!-- END .slides_container -->
+      <!-- END .slides_container --
       </div>
 
       <a href="#" class="prev"><img src="img/arrow-prev.png" alt="Arrow Prev"></a>
@@ -147,7 +151,9 @@ window.showVideo = function (e) {
           <p>
             <a href="/about-us/meet-the-soupman" class="button1">SoupMan's Story</a>
             <a href="http://thesoupman.blogspot.com/" class="button1">SoupMan's Blog</a>
+            <label style="display: block; margin: 6px 0"></label>
             <a href="/books" class="button1">SoupMan's Books</a>
+            <a href="/about-us/soupmans-wishlist" class="button1">SoupMan's WishList</a>
           </p>
         </div>
       </div>
