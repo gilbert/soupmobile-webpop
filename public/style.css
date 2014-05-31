@@ -1967,14 +1967,18 @@ table.wishlist-entry {
 table.wishlist-entry td {
   vertical-align: top;
 }
-table.wishlist-entry td.img { width: 380px; vertical-align: middle; }
 table.wishlist-entry td.body { padding-top: 30px; }
 
-table.wishlist-entry tr.granted h3.title {
+table.wishlist-entry td.img { width: 380px; vertical-align: middle; }
+table.wishlist-entry td.img .overlay-wrap { position: relative; }
+
+table.wishlist-entry tr.granted td.body > :first-child {
   text-decoration: line-through;
 }
-table.wishlist-entry tr.granted h3.granted {
-  display: inline;
+table.wishlist-entry tr.granted td.body > :first-child + *::before {
+  content: "Granted!";
+  color: #800;
+  display: block;
   font-size: 2em;
 }
 table.wishlist-entry tr.granted .granted-overlay {
@@ -2081,7 +2085,6 @@ table.wishlist-entry tr.granted .granted-overlay {
 #cj-wish #soupman-wishlist h3 { color: #c00; }
 #cj-wish #soupman-wishlist table { table-layout: fixed; }
 #cj-wish #soupman-wishlist td.img { width: 280px; }
-#cj-wish #soupman-wishlist td.img .overlay-wrap { position: relative; }
 #cj-wish #soupman-wishlist td.body { text-align: left; }
 
 #qrxl {
