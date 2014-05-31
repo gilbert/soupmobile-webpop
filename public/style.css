@@ -2299,6 +2299,16 @@ form.donate-info button {
   font-size: 1.2em;
 }
 
+form.donate-info [name="first_name"],
+form.donate-info [for="first_name"],
+form.donate-info [name="last_name"],
+form.donate-info [for="last_name"],
+form.donate-info [name="comment"],
+form.donate-info [for="comment"]
+{
+  display: none;
+}
+
 .donate-info-success {
   background: #00c000;
   color: white;
