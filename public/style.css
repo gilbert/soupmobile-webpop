@@ -1972,6 +1972,8 @@ table.wishlist-entry td.body { padding-top: 30px; }
 table.wishlist-entry td.img { width: 380px; vertical-align: middle; }
 table.wishlist-entry td.img .overlay-wrap { position: relative; }
 
+table.wishlist-entry tr.granted .hide-on-granted { display: none; }
+
 table.wishlist-entry tr.granted td.body > :first-child {
   text-decoration: line-through;
 }

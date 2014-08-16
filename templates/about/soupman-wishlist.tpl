@@ -35,7 +35,7 @@
             </td>
             <td class="body" valign="top">
               <pop:body />
-              <a class="sib-show" href="#">Learn More</a>
+              <a class="sib-show hide-on-granted" href="#">Learn More</a>
               <form class="hide donate-info" method="post">
                 <div class="centered">
                   <a class="button2" style="margin: 15px 0 10px;" href="/donate">Yes, I want to <strong style="color: #c00; font-weight: bold;">Donate</strong> now!</a>
