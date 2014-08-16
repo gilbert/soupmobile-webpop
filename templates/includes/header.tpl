@@ -62,7 +62,7 @@
           <li><a href="/about-us/financials">Financials</a></li>
           <li><a href="/about-us/celebrate-jesus">Celebrate Jesus</a></li>
           <li><a href="/about-us/soupmans-wishlist">SoupMan&#x27;s Wishlist</a></li>
-          <li><a href="/about-us/lons-limelights">Lon&#x27;s Limelights</a></li>
+          <li><a href="/about-us/lons-limelights">SoupMobile Limelights</a></li>
           <li><a href="/about-us/contact">Contact Us / Directions</a></li>
         </ul>
       </li>
