@@ -31,7 +31,7 @@
       <pop:content>
         <img src="<pop:banner.src />" class="cj-banner" />
         <div class="seal-wrap">
-          <a id="seal" href="/celebrate-jesus/title-sponsor">Title<br />Sponsor Information</a>
+          <a id="seal" href="/celebrate-jesus/sponsor">Title<br />Sponsor Information</a>
 
           <a id="cj-vid-2012"
              class="lightview"
