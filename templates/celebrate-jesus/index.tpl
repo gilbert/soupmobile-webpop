@@ -11,7 +11,7 @@
       display: block;
       font-size: 36px;
       line-height: 1.2;
-      padding-top: 65px;
+      padding-top: 89px;
       position: absolute; top: -22px; right: -30px;
       text-decoration: none;
       width: 284px; height: 221px;
@@ -31,7 +31,7 @@
       <pop:content>
         <img src="<pop:banner.src />" class="cj-banner" />
         <div class="seal-wrap">
-          <a id="seal" href="/celebrate-jesus/sponsor">Title<br />Sponsor Information</a>
+          <a id="seal" href="/celebrate-jesus/sponsor">Sponsor Information</a>
 
           <a id="cj-vid-2012"
              class="lightview"
