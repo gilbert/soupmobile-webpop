@@ -2050,7 +2050,8 @@ table.wishlist-entry tr.granted .granted-overlay {
 }
 
 .major-btn {
-  display: inline-block;
+  display: block;
+  margin: 0 auto;
   width: 49%; height: 183px;
 }
 .major-btn img { max-width: 100%; }

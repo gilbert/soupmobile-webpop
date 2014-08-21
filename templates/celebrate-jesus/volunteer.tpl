@@ -21,10 +21,6 @@
       <img class="up" src="/images/ui/volunteer_up.png" />
       <img class="down" src="/images/ui/volunteer_down.png" />
     </a>
-    <a href="http://secure.soupmobile.org/donate" class="major-btn second">
-      <img class="up" src="/images/ui/cant_volunteer_up.png" />
-      <img class="down" src="/images/ui/cant_volunteer_down.png" />
-    </a>
 
     <div class="clearfix"></div>
 
