@@ -1,0 +1,27 @@
+table.wishlist-entry {
+  width: 100%;
+}
+table.wishlist-entry td {
+  vertical-align: top;
+}
+table.wishlist-entry td.body { padding-top: 30px; }
+
+table.wishlist-entry td.img { width: 380px; vertical-align: middle; }
+table.wishlist-entry td.img .overlay-wrap { position: relative; }
+
+table.wishlist-entry tr.granted .hide-on-granted { display: none; }
+
+table.wishlist-entry tr.granted td.body > :first-child {
+  text-decoration: line-through;
+}
+table.wishlist-entry tr.granted td.body > :first-child + *::before {
+  content: "Granted!";
+  color: #800;
+  display: block;
+  font-size: 2em;
+}
+table.wishlist-entry tr.granted .granted-overlay {
+  display: block;
+  position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+  background: url(/images/ui/granted-overlay.png) center center;
+}
