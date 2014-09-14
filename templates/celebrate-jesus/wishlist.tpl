@@ -1,18 +1,17 @@
-<pop:layout name="default"/>
+<pop:layout name="cj"/>
 <pop:include template="includes/hide-banner" />
 
+<pop:block region="sub-nav">
+ <dd><a href="http://www.soupmobile.org/celebrate-jesus/sponsor">Sponsoring</a></dd>
+ <dd><a href="http://secure.soupmobile.org">Volunteer Opportunities</a></dd>
+ <dd><a href="http://www.soupmobile.org/celebrate-jesus/the-soupman-s-christmas-wishlist">SoupMan&#39;s Christmas Wish List</a></dd>
+</pop:block>
 
 <pop:block region="main">
 
   <div class="section" id="cj-wish">
 
     <div class="centered">
-      <pop:content>
-        <a href="/celebrate-jesus">
-          <img src="<pop:banner.src />" class="cj-banner" />
-        </a>
-      </pop:content>
-
       <h2><pop:content.title /></h2>
     </div>
 

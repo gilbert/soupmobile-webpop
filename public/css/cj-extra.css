@@ -1,3 +1,12 @@
+.major-btn {
+  display: block;
+  margin: 0 auto;
+  width: 49%; height: 183px;
+}
+.major-btn img { max-width: 100%; }
+.major-btn img.down { display: none; }
+.major-btn + .major-btn { margin-left: 1%; }
+
 table.wishlist-entry {
   width: 100%;
 }
