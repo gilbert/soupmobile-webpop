@@ -67,29 +67,23 @@
         </ul>
       </li>
 
-        <li class=""><a href="/our-missions">Our Missions</a></li>
+      <li class=""><a href="/our-missions">Our Missions</a></li>
 
-        <li>
-          <a href="/about-us/in-the-news">In the news</a>
-          <ul>
-            <li><a href="/about-us/in-the-news/tv">TV</a></li>
-            <li><a href="/about-us/in-the-news/print">Print</a></li>
-            <li><a href="/about-us/in-the-news/radio">Radio</a></li>
-          </ul>
-        </li>
+      <li>
+        <a href="/about-us/in-the-news">In the news</a>
+        <ul>
+          <li><a href="/about-us/in-the-news/tv">TV</a></li>
+          <li><a href="/about-us/in-the-news/print">Print</a></li>
+          <li><a href="/about-us/in-the-news/radio">Radio</a></li>
+        </ul>
+      </li>
 
-        <li class=""><a href="/souper-100">Souper 100</a></li>
+      <li class=""><a href="/souper-100">Souper 100</a></li>
 
-        <li class="">
-          <a href="/thrift-store">Thrift Store</a>
-          <ul>
-            <li>
-              <a href="/thrift-store/donate-items">Donate Items</a>
-            </li>
-          </ul>
-        </li>
-      <li class=""><a href="/church/wishlist">Church Wishlist</a></li>
-      <li class="dbl-line"><a class="outline" href="/church">SoupMobile<br />Church</a></li>
+      <li class="dbl-line"><a href="/church">SoupMobile<br />Church</a></li>
+      <li class="dbl-line"><a class="outline" href="/celebrate-jesus">Celebrate Jesus<br />Christmas Gala</a></li>
+      <li class="dbl-line"><a class="outline" href="/celebrate-jesus/the-soupman-s-christmas-wishlist">SoupMan's Christmas Wishlist &amp;<br /> Christmas Holiday Boxes</a></li>
+
     </ul>
   </div>
 
