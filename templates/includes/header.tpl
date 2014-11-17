@@ -82,7 +82,7 @@
 
       <li class="dbl-line"><a href="/church">SoupMobile<br />Church</a></li>
       <li class="dbl-line"><a class="outline" href="/celebrate-jesus">Celebrate Jesus<br />Christmas Gala</a></li>
-      <li class="dbl-line"><a class="outline" href="/celebrate-jesus/the-soupman-s-christmas-wishlist">SoupMan's Christmas Wishlist &amp;<br /> Christmas Holiday Boxes</a></li>
+      <li class="dbl-line"><a class="outline" href="/celebrate-jesus/the-soupman-s-christmas-wishlist">SoupMan's Christmas Wishlist <br />&amp; Christmas Holiday Boxes</a></li>
 
     </ul>
   </div>
