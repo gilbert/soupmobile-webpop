@@ -457,9 +457,11 @@ a.donate-btn:hover {
   background: #eee;
   color: #c00;
   font-weight: bold;
+  background-image: url(/images/sparkling-background.jpg);
+  background-repeat: no-repeat;
 }
 #main-menu > li.dbl-line a.outline:hover {
-  background: #fdd;
+  background: #15B540;
 }
 
 #main-menu li {
